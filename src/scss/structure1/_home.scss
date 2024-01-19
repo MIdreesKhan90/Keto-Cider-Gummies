@@ -1,0 +1,119 @@
+.s1-banner {
+  background-image: url(/images/keto-cider/s1/banner-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0;
+  background-size: cover;
+}
+.s1-banner .banner-data {
+  max-width: 56%;
+  padding: 40px 0 37px 0;
+  font-size: 18px;
+}
+.s1-banner .banner-img {
+  width: 100%;
+  float: right;
+}
+.s1-banner .banner-img img {
+  width: 100%;
+}
+.s1-product-section {
+  padding: 60px 0 0 0;
+}
+.s1-product-section .product-box {
+  padding: 0;
+  position: relative;
+  margin: 30px 0 0 0;
+}
+.s1-product-section .product-img {
+  background: #f3f3f3;
+  position: relative;
+  height: 220px;
+}
+.s1-product-section .product-img img {
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-height: 100%;
+  max-width: 100%;
+}
+.s1-product-section .product-title {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 16px 0 0 0;
+}
+.s1-product-section p {
+  font-size: 10px;
+  padding: 0;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #434343;
+  margin-bottom: 0;
+}
+.s1-product-section .product-price {
+  padding: 10px 0 0 0;
+  font-weight: 600;
+  font-size: 18px;
+  color: #cdaf1b;
+}
+.s1-product-section .cart-btn {
+  padding: 14px 0 0;
+}
+.s1-product-section .cart-btn button,
+.s1-product-section .cart-btn a {
+  width: 100%;
+  float: left;
+  border: 1px solid #707070;
+  color: #707070;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 30px;
+  padding: 7px 0;
+  background: none;
+  border-radius: 3px;
+  transition: all .3s ease-in-out;
+}
+.s1-product-section .cart-btn button:hover,
+.s1-product-section .cart-btn a:hover {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}
+.product-section h2 {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .s1-banner p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .s1-product-section h2 {
+    font-size: 40px;
+  }
+  .s1-product-section .data-row {
+    padding: 30px 0 0 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .product-section h2 {
+    font-size: 32px;
+}
+.s1-banner .banner-data {
+  max-width: 100%;
+  padding: 35px 0 27px 0;
+  font-size: 15px;
+}
+.s1-banner {
+  background: #f4f4f4;
+}
+}

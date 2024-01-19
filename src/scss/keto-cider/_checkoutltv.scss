@@ -1,0 +1,206 @@
+.reminder-content-section {
+  padding-top: 80px;
+  background-image: url(/images/keto-cider/bg-images/thankyou-bg-image.png);
+  background-size: 100% 100%;
+}
+
+.reminder-content-section h6 {
+  font-size: 25px;
+  line-height: 1.5em;
+  color: #BF1E2E;
+  text-align: center;
+  font-weight: 500;
+}
+
+.reminder-content-section h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.reminder-content-section h1 span {
+  color: #BF1E2E;
+}
+
+.reminder-content-section .nav-pills {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: fit-content;
+  margin-bottom: 0 !important;
+}
+
+.reminder-content-section .nav-pills .nav-item .nav-link {
+  width: 200px;
+  height: 96px;
+  font-size: 31px;
+  font-weight: 700;
+  background-color: #DEDEDE;
+  margin-left: 24px;
+  color: #434343;
+  border-radius: 0px;
+}
+
+.reminder-content-section .nav-pills li:first-child {
+  border-radius: 58px 0px 0px 0px;
+  margin-left: 0;
+}
+
+.reminder-content-section .nav-pills li:last-child {
+  border-radius: 0px 58px 0px 0px;
+}
+
+.reminder-content-section .nav-pills .nav-link.active {
+  background-color: #BF1E2E;
+  color: #FFFFFF;
+}
+
+.reminder-content-section .reminder-content {
+  background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+}
+
+.reminder-content-section .reminder-content .tab-description {
+  padding-top: 42px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.reminder-content-section .reminder-content .tab-description p {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.reminder-content-section .reminder-content .tab-description p span {
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.reminder-content-section .next-tab-button {
+  background-color: #009B43;
+  width: 238px;
+  height: 90px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 69px;
+  font-size: 35px;
+  color: #FFFFFF;
+  font-weight: 500;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reminder-content-section .reminder-content .tab-description h5 {
+  font-size: 21px;
+  line-height: 1.6em;
+  text-align: center;
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.reminder-content-section .reminder-content .tab-description h6 {
+  text-align: center;
+  line-height: 2em;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.reminder-content-section .reminder-content .tab-description ul {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.reminder-content-section .reminder-content .tab-description ul li {
+  font-size: 18px;
+  line-height: 2.25em;
+  list-style: none;
+  position: relative;
+}
+
+.reminder-content-section .reminder-content .tab-description ul li span {
+  font-weight: 600;
+}
+
+.reminder-content-section .reminder-content .tab-description ul li::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -30px;
+  width: 22px;
+  height: 22px;
+  background-image: url(/images/keto-cider/icon/check-svgrepo-com.png);
+  background-size: 100% 100%;
+}
+
+.page-description-section {
+  padding: 70px 0;
+}
+
+.page-description-section p {
+  background-color: #FFFFFF;
+  border: 1px solid #BFBFBF;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 35px;
+  width: 70%;
+  font-size: 14px;
+  line-height: 1.7em;
+}
+.checkoutltv-page .section-1 h2 {
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #C5AF3B;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.checkoutltv-page .section-1 p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.checkoutltv-page .section-1 ul.quiz-tabs {
+  display: flex;
+  list-style: none;
+  margin-top: 50px;
+}
+.checkoutltv-page .section-1 ul.quiz-tabs li {
+  width: 200px;
+  height: 96px;
+  font-size: 31px;
+  font-weight: 700;
+  background-color: #DEDEDE;
+  margin-left: 24px;
+  color: #434343;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkoutltv-page .section-1 ul.quiz-tabs li:first-child{
+  border-radius: 58px 0px 0px 0px;
+  margin-left: 0;
+}
+.checkoutltv-page .section-1 ul.quiz-tabs li:last-child{
+  border-radius: 0px 58px 0px 0px;
+}
+.checkoutltv-page .section-1 ul.quiz-tabs li.active {
+  background-color: #BF1E2E;
+  color: #FFFFFF;
+}
+.checkoutltv-page .section-2 .quizzes {
+  display: none;
+}
+.checkoutltv-page .section-2 .quizzes.active {
+  display: block;
+}
+.checkoutltv-page .section-1 h2 {
+  font-size: 40px;
+}
+.checkoutltv-page .section-1 p {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.checkoutltv-page .section-1 ul.quiz-tabs {
+  display: flex;
+}

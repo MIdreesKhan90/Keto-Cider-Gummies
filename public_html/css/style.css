@@ -1,0 +1,37 @@
+.order-form-page .creditCardType-box > div {
+  display: none;
+  margin-bottom: 15px;
+  flex-direction: row;
+  align-items: center;
+}
+.order-form-page .creditCardType-box > div.active {
+  display: flex;
+}
+.order-form-page .creditCardType-box > div .icon {
+  width: 70px;
+  padding-right: 15px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.order-form-page .creditCardType-box > div .icon img {
+  max-width: 100%;
+}
+
+[name=product_id], [name=p] {
+  display: none;
+}
+[name=product_id] + label, [name=p] + label {
+  cursor: pointer;
+}
+[name=product_id] + label .normal, [name=p] + label .normal {
+  display: block;
+}
+[name=product_id] + label .selected, [name=p] + label .selected {
+  display: none;
+}
+[name=product_id]:checked + label .normal, [name=p]:checked + label .normal {
+  display: none;
+}
+[name=product_id]:checked + label .selected, [name=p]:checked + label .selected {
+  display: block;
+}

@@ -1,0 +1,4499 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FDFDFD;
+  color: #000000;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+.header-section {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+  background-color: #FFFFFF;
+}
+
+.header-section .navbar {
+  padding: 20px 0;
+}
+
+.header-section .navbar .navbar-brand .desktop-logo {
+  height: 51px;
+}
+
+.header-section .navbar .navbar-brand .mobile-logo {
+  height: 70px;
+  display: none;
+}
+
+.header-section .navbar .navbar-nav {
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header-section .navbar .contact-number img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.header-section .navbar .contact-number p {
+  font-size: 18px;
+  color: #101010;
+}
+
+.header-section .navbar .contact-number a {
+  color: #BF1E2E;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 0.9em;
+}
+
+.secure-logo-images img {
+  display: inline-block;
+  height: 34px;
+}
+.secure-logo-images img + img {
+  margin-left: 10px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: none !important;
+  }
+}
+.footer-section {
+  padding: 50px 0;
+  box-shadow: 10px 3px 10px rgba(0, 0, 0, 0.1607843137);
+}
+.footer-section .footer-contact {
+  display: flex;
+  align-items: center;
+}
+.footer-section .footer-contact .order-button {
+  font-size: 22px;
+  font-weight: 700;
+  background: transparent linear-gradient(163deg, #BF1E2E 0%, #81010D 100%);
+  border-radius: 10px;
+  color: #FFFFFF;
+  margin-left: 30px;
+  padding: 19px 27px;
+  text-decoration: none;
+}
+.footer-section .footer-contact .contact-number img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.footer-section .footer-contact .contact-number p {
+  font-size: 16px;
+  color: #101010;
+}
+.footer-section .footer-contact .contact-number a {
+  color: #BF1E2E;
+  font-size: 23px;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 0.9em;
+}
+.footer-section p {
+  font-size: 16px;
+  line-height: 2em;
+  margin-top: -48px;
+}
+.footer-section ul {
+  display: flex;
+  margin-top: 20px;
+  list-style: none;
+}
+.footer-section ul li + li {
+  margin-left: 15px;
+}
+.footer-section ul li a {
+  font-size: 16px;
+  line-height: 2em;
+  text-decoration: none;
+  color: #000000;
+}
+
+section .page-title {
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+
+section .title {
+  font-size: 35px;
+  line-height: 1.3em;
+  text-align: center;
+  font-weight: 700;
+}
+
+.hero-section {
+  background-image: url(/images/keto-cider/bg-images/hero-bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 75px;
+  padding-bottom: 20px;
+}
+.hero-section .hero-container {
+  position: relative;
+}
+.hero-section .hero-container .hero-product-image {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  height: 500px;
+}
+.hero-section .hero-content p {
+  color: #BF1E2E;
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 20px;
+  line-height: 1.4em;
+  max-width: 580px;
+}
+.hero-section .hero-content .hero-description {
+  margin-top: 40px;
+}
+.hero-section .hero-content .hero-description p {
+  max-width: 650px;
+  color: #000000;
+}
+.hero-section .hero-content ul {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.hero-section .hero-content ul li {
+  list-style: none;
+  list-style-image: url(/images/keto-cider/icon/list-style-icon.png);
+  font-size: 17px;
+  line-height: 2.25em;
+  font-weight: 500;
+}
+
+.planing-section {
+  padding-top: 75px;
+}
+.planing-section .planing-content {
+  background-color: #BF1E2E;
+  padding: 65px 55px;
+}
+.planing-section .planing-content h1 {
+  color: #FFFFFF;
+}
+.planing-section .planing-content h1 span {
+  color: #DDC34F;
+}
+.planing-section .planing-content p {
+  text-align: center;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 300;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.5em;
+  margin-top: 26px;
+}
+
+.planing-card {
+  border-radius: 10px;
+  margin-top: 36px;
+  height: 490px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 10px;
+}
+.planing-card img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.planing-card .floater {
+  text-align: left;
+  font-size: 85px;
+  line-height: 1.5em;
+  width: fit-content;
+  background: rgba(255, 255, 255, 0.6);
+  color: #BF1E2E;
+  border-radius: 10px 0px 0px 0px;
+  padding: 0 27px;
+  z-index: 1;
+  font-family: "Anton", sans-serif;
+}
+.planing-card .card-description {
+  background-color: rgba(38, 38, 38, 0.4431372549);
+  border-radius: 0px 0px 10px 10px;
+  padding: 6px 20px;
+  z-index: 1;
+}
+.planing-card .card-description h4 {
+  font-size: 24px;
+  line-height: 1.5em;
+  color: #FFFFFF;
+}
+.planing-card .card-description p {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.progress-section {
+  padding: 75px 0;
+}
+.progress-section .progress-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.progress-section .progress-content h1 span {
+  color: #BF1E2E;
+}
+.progress-section .progress-content p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-top: 27px;
+}
+.progress-section .progress-content img {
+  margin-top: 60px;
+}
+
+.results-section {
+  background-image: url(/images/keto-cider/bg-images/result-bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 75px 0;
+}
+
+.results-section h1 span {
+  color: #BF1E2E;
+}
+
+.results-section .results-description {
+  margin-top: 100px;
+}
+
+.results-section .results-description p {
+  background: transparent linear-gradient(277deg, #BF1E2E 0%, #570000 100%);
+  padding: 5px 50px;
+  margin-bottom: 11px;
+  font-size: 16px;
+  line-height: 3em;
+  color: #FFFFFF;
+}
+
+.results-section .results-description p span {
+  color: #DDC34F;
+  font-weight: 700;
+}
+
+.results-section .results-container {
+  position: relative;
+}
+
+.results-section .results-container img {
+  position: absolute;
+  top: 16%;
+  left: 0;
+}
+
+.results-section .results-container > p {
+  margin-top: 113px;
+  font-size: 21px;
+  line-height: 1.6em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.results-section .results-container > p span {
+  font-weight: 700;
+}
+
+.compare-section {
+  padding-top: 95px;
+  padding-bottom: 290px;
+}
+
+.compare-section h1 {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.compare-section h1 span {
+  color: #BF1E2E;
+}
+
+.compare-section p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.compare-section img {
+  margin-top: 30px;
+}
+
+.compare-section .outshines-description h1 {
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.compare-section .outshines-description ul {
+  margin: 40px auto 0;
+  width: fit-content;
+}
+
+.compare-section .outshines-description ul li {
+  font-size: 17px;
+  line-height: 2.25em;
+  list-style: none;
+  position: relative;
+}
+
+.compare-section .outshines-description ul li::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -24px;
+  background-image: url(/images/keto-cider/icon/arrow-right.png);
+  background-size: 100% 100%;
+  width: 15px;
+  height: 17px;
+}
+
+.compare-section .outshines-description ul li b {
+  text-transform: uppercase;
+}
+
+.keto-help-section {
+  background: #F6F6F6;
+  padding-bottom: 75px;
+}
+
+.keto-help-section h1 {
+  margin: 0 auto 70px;
+}
+
+.keto-help-section h1 span {
+  color: #BF1E2E;
+}
+
+.keto-help-section .keto-help-container {
+  text-align: center;
+}
+
+.keto-help-section .keto-help-container .product-images {
+  margin-top: -245px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+
+.keto-help-section .blog-card {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+  border-bottom: 10px solid #BF1E2E;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+.keto-help-section .blog-card img {
+  width: 100%;
+}
+
+.keto-help-section .blog-card .blog-description {
+  padding: 30px 35px;
+}
+
+.keto-help-section .blog-card .blog-description h6 {
+  font-size: 22px;
+  line-height: 1.25em;
+  font-weight: 700;
+  color: #BF1E2E;
+  margin-bottom: 13px;
+  text-align: left;
+}
+
+.keto-help-section .blog-card .blog-description p {
+  font-size: 14px;
+  line-height: 1.75em;
+  text-align: left;
+}
+
+.offer-section {
+  padding: 75px 0;
+}
+
+.offer-section .special-offer {
+  margin: 0 auto;
+  display: block;
+  max-width: 671px !important;
+}
+
+.offer-section h1 {
+  margin-top: 100px;
+}
+
+.offer-section h1 span {
+  color: #BF1E2E;
+}
+
+.offer-section .offer-card {
+  display: flex;
+  align-items: center;
+  margin-top: 66px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+  background-color: #F8F8F8;
+}
+
+.offer-section .offer-card + .offer-card {
+  margin-top: 45px;
+}
+
+.offer-section .offer-card .offer-card-content {
+  padding: 0 25px;
+}
+
+.offer-section .offer-card .offer-card-content h6 {
+  font-size: 22px;
+  line-height: 1.6em;
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.offer-section .offer-card .offer-card-content p {
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-top: 25px;
+}
+
+.offer-section .offer-card img {
+  width: 50% !important;
+  height: 290px;
+}
+
+.offer-section .offer-description p {
+  font-size: 17px;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 0px 105px;
+  margin-top: 53px;
+}
+
+.offer-section .offer-description p span {
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.comprehensive-section {
+  padding-top: 75px;
+  background-color: #F2F2F2;
+}
+
+.comprehensive-section h1 {
+  margin-bottom: 50px;
+}
+
+.comprehensive-section h1 span {
+  color: #BF1E2E;
+}
+
+.comprehensive-section .comprehensive-product {
+  position: relative;
+  left: 40px;
+  z-index: 1;
+}
+
+.comprehensive-section .comprehensive-vector {
+  position: relative;
+  top: -80px;
+  left: 30px;
+}
+
+.comprehensive-section ul {
+  padding: 0;
+  margin-top: 105px;
+}
+
+.comprehensive-section ul li {
+  list-style: none;
+  list-style-image: url(/images/keto-cider/icon/list-style-icon.png);
+  font-size: 21px;
+  line-height: 2.29em;
+  font-weight: 500;
+}
+
+.reveiw-section {
+  padding-top: 75px;
+  padding-bottom: 90px;
+}
+
+.reveiw-section h1 {
+  line-height: 1.5em;
+  margin-bottom: 57px;
+}
+
+.reveiw-section h1 span {
+  color: #BF1E2E;
+}
+
+.reveiw-section .reveiw-card {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 10px;
+  border-bottom: 10px solid #BF1E2E;
+  background-color: #FFFFFF;
+  max-width: 565px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content {
+  padding: 0 35px 15px 35px;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content .quote-image {
+  width: 48px;
+  height: 34px;
+  margin-top: -16px;
+  display: block;
+  margin-left: auto;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content h5 {
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.25em;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content .toppng-five-image {
+  width: 79px;
+  height: 16px;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content p {
+  font-size: 14px;
+  line-height: 1.75em;
+  margin-top: 5px;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content .avatar {
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content .avatar p {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content .avatar p img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: -2px;
+}
+
+.supplement-section {
+  background-color: #BF1E2E;
+  padding: 75px 0;
+}
+
+.supplement-section h1 {
+  line-height: 1.5em;
+  color: #FFFFFF;
+  margin-bottom: 57px;
+}
+
+.supplement-section h1 span {
+  color: #DDC34F;
+}
+
+.supplement-section .supplement-card {
+  background-color: #FFFFFF;
+  padding: 0 24px 26px;
+  height: 100%;
+  max-width: 565px;
+  margin: 0 auto;
+}
+
+.supplement-section .supplement-card .quote-image {
+  width: 52px;
+  height: 38px;
+  display: block;
+  margin-left: auto;
+  position: relative;
+  top: -17px;
+}
+
+.supplement-section .supplement-card .supplement-card-image {
+  max-height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.supplement-section .supplement-card h5 {
+  font-size: 21px;
+  line-height: 1.25em;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.supplement-section .supplement-card .ratting-image {
+  height: 16px;
+  width: 79px;
+}
+
+.supplement-section .supplement-card p {
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-top: 15px;
+}
+
+.formula-section {
+  padding: 75px 0;
+}
+
+.formula-section h1 {
+  margin: 0 auto 70px;
+  max-width: 900px;
+}
+
+.formula-section h1 span {
+  color: #BF1E2E;
+}
+
+.formula-section .formula-description {
+  padding: 25px 0;
+  max-width: 580px;
+  border-bottom: 1px solid #434343;
+}
+
+.formula-section .formula-description:last-of-type {
+  border: 0;
+}
+
+.formula-section .formula-description h4 {
+  font-size: 19px;
+  line-height: 1.8em;
+  color: #BF1E2E;
+  font-weight: 700;
+  position: relative;
+  margin-left: 35px;
+}
+
+.formula-section .formula-description h4::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: -35px;
+  background-image: url(/images/keto-cider/icon/check-svgrepo-com.png);
+  width: 27px;
+  height: 27px;
+}
+
+.formula-section .formula-description p {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.6em;
+  font-weight: 500;
+}
+
+.formula-section hr {
+  width: 70%;
+  margin: 75px auto;
+}
+
+.formula-section h1:last-of-type {
+  margin-bottom: 50px;
+}
+
+.formula-section .premium-cider {
+  background: #FCFCFC;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.formula-section .premium-cider .premium-description {
+  padding: 45px 36px 45px 0;
+}
+
+.formula-section .premium-cider .premium-description h3 {
+  font-size: 25px;
+  line-height: 1.5em;
+  color: #BF1E2E;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.formula-section .premium-cider .premium-description p {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.formula-section .premium-cider .premium-description h4 {
+  background-image: url(/images/keto-cider/bg-images/support-bg-image.png);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-size: 17px;
+  line-height: 1.5em;
+  padding: 10px 0 10px 25px;
+  margin-top: 40px;
+  margin-left: -24px;
+}
+
+.formula-section .premium-cider .premium-description ul {
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.formula-section .premium-cider .premium-description ul li {
+  list-style: none;
+  position: relative;
+  font-size: 18px;
+  line-height: 2.5em;
+}
+
+.formula-section .premium-cider .premium-description ul li::after {
+  content: "";
+  position: absolute;
+  top: 19px;
+  left: -15px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #BF1E2E;
+}
+
+.formula-offer-section {
+  padding: 75px 0;
+  background-image: url(/images/keto-cider/bg-images/formula-bg-image.png);
+  background-size: 100% 100%;
+}
+
+.formula-offer-section h1 {
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.formula-offer-section h1 span {
+  color: #BF1E2E;
+}
+
+.formula-offer-section h3 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #BF1E2E;
+  line-height: 1.5em;
+}
+
+.formula-offer-section ul {
+  margin-top: 26px;
+  margin-left: 25px;
+}
+
+.formula-offer-section ul li {
+  font-size: 18px;
+  line-height: 2.25em;
+  font-weight: 500;
+  list-style: none;
+  position: relative;
+}
+
+.formula-offer-section ul li::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -26px;
+  background-image: url(/images/keto-cider/icon/arrow-right.png);
+  width: 15px;
+  height: 17px;
+  background-size: 100% 100%;
+}
+
+.formula-offer-section h5 {
+  font-size: 21px;
+  line-height: 1.6em;
+  margin-top: 15px;
+}
+
+.formula-offer-section h5 span {
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.formula-offer-section .offer-button {
+  background: #009B43;
+  width: 520px;
+  height: 80px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  font-size: 35px;
+  color: #FFFFFF;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.formula-offer-section p {
+  background-color: #FFFFFF;
+  border: 1px solid #BFBFBF;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 85px;
+  padding: 15px 35px;
+  max-width: 824px;
+  font-size: 14px;
+  line-height: 1.7em;
+}
+
+.formula-offer-section .secure-logo-images {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.pb-90 {
+  padding-bottom: 90px;
+}
+
+.order-hero-section {
+  background-image: url(/images/keto-cider/bg-images/thankyou-bg-image.png);
+  background-size: 100% 100%;
+  padding-top: 83px;
+}
+
+.order-hero-section h1 {
+  text-align: center;
+}
+
+.order-hero-section h1 span {
+  color: #BF1E2E;
+}
+
+.order-hero-section p {
+  font-size: 25px;
+  text-align: center;
+  color: #BF1E2E;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+.order-hero-section img {
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.order-hero-section h3 {
+  font-size: 28px;
+  text-align: center;
+  background: #bf1e2e;
+  color: #fff;
+  position: relative;
+  top: -78px;
+  border-radius: 0px 0px 10px 10px;
+  line-height: 3em;
+}
+
+.order-commit-section {
+  padding-top: 20px;
+  padding-bottom: 190px;
+}
+
+.order-commit-section h1 span {
+  color: #BF1E2E;
+}
+
+.order-commit-section p {
+  font-size: 18px;
+  text-align: center;
+  color: #BF1E2E;
+  margin-top: 10px;
+}
+
+.order-commit-section .order-commit-card {
+  max-width: 375px;
+  margin: 0 auto;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 10px;
+  border-bottom: 10px solid #BF1E2E;
+  padding: 0 21px 18px 21px;
+  margin-top: 55px;
+}
+
+.order-commit-section .order-commit-card .red-quote-img {
+  width: 48px;
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  position: relative;
+  top: -16px;
+}
+
+.order-commit-section .order-commit-card .card-rating-img {
+  width: 79px;
+  height: 16px;
+  margin-top: -10px;
+}
+
+.order-commit-section .order-commit-card p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.75em;
+  text-align: left;
+  height: 108px;
+  color: #000000;
+}
+
+.order-commit-section .order-commit-card .avatar {
+  width: fit-content;
+  margin-left: auto;
+}
+
+.order-commit-section .order-commit-card .avatar p {
+  font-size: 16px;
+  text-align: right;
+  line-height: 1.5em;
+  margin: 0;
+  height: auto;
+}
+
+.order-commit-section .order-commit-card .avatar img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+.order-unlock-power-section {
+  padding: 44px 0;
+  background-color: #F6F6F6;
+}
+
+.order-unlock-power-section h1 span {
+  color: #BF1E2E;
+}
+
+.order-unlock-power-section ul {
+  margin-top: 35px;
+}
+
+.order-unlock-power-section ul li {
+  font-size: 18px;
+  line-height: 2.25em;
+  list-style: none;
+  position: relative;
+}
+
+.order-unlock-power-section ul li::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -30px;
+  width: 22px;
+  height: 22px;
+  background-image: url(/images/keto-cider/icon/check-svgrepo-com.png);
+  background-size: 100% 100%;
+}
+
+.order-unlock-power-section img {
+  position: absolute;
+  top: -93px;
+  left: 20px;
+  height: 520px;
+  width: auto;
+}
+
+.order-transform-section {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.order-transform-section h1 span {
+  color: #BF1E2E;
+}
+
+.order-transform-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.order-transform-section .transform-section-image {
+  width: 775px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
+.order-transform-section hr {
+  margin: 100px auto;
+}
+
+.order-transform-section p {
+  font-size: 16px;
+  margin-top: 40px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.order-transform-section p + p {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.order-transform-section p span {
+  color: #BF1E2E;
+}
+
+.order-transform-section ul {
+  padding: 0;
+}
+
+.order-transform-section ul li {
+  list-style: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border: 1px solid #BF1E2E;
+  border-left: 9px solid #BF1E2E;
+  border-radius: 13px;
+  padding: 22px 0px 22px 47px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4em;
+  position: relative;
+  margin-bottom: 31px;
+}
+
+.order-transform-section ul li::after {
+  content: "";
+  background-image: url(/images/keto-cider/icon/list-style-icon.png);
+  background-size: 100% 100%;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 3%;
+}
+
+.order-transform-section .transform-product {
+  position: relative;
+  right: -50px;
+}
+
+.important-section {
+  background-color: #BF1E2E;
+  padding: 90px 0;
+}
+
+.important-section h1 {
+  background: transparent linear-gradient(90deg, rgba(255, 255, 255, 0.0196078431) 0%, #FFFFFF 47%, rgba(255, 255, 255, 0) 100%);
+  text-align: center;
+  font-weight: 600;
+  font-size: 52px;
+  padding: 25px 0;
+  line-height: 1.5em;
+  margin-bottom: 45px;
+}
+
+.important-section h3 {
+  font-size: 31px;
+  line-height: 1.5em;
+  color: #DDC34F;
+  text-align: center;
+}
+
+.important-section p {
+  font-size: 18px;
+  line-height: 2em;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+  font-weight: 300;
+}
+
+.important-section .important-card {
+  background-color: rgba(0, 0, 0, 0.2196078431);
+  padding: 29px 24px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.important-section .important-card p {
+  font-size: 16px;
+  margin: 0;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.important-section .important-card p span {
+  color: #DDC34F;
+  font-weight: 700;
+}
+
+.comparison-section {
+  padding: 90px 0;
+}
+
+.comparison-section h1 {
+  margin-bottom: 80px;
+}
+
+.comparison-section h1 span {
+  color: #BF1E2E;
+}
+
+.comparison-section .comparison-product-content {
+  max-width: 645px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.comparison-section .comparison-product-content .comparison-product-left {
+  background-color: rgba(191, 30, 46, 0.0901960784);
+  padding: 20px 16px;
+}
+
+.comparison-section .comparison-product-content img {
+  height: 290px;
+}
+
+.comparison-section .comparison-product-content .comparison-product-left + .comparison-product-left {
+  margin-top: 20px;
+}
+
+.comparison-section .comparison-product-content .comparison-product-left h6 {
+  font-size: 18px;
+  line-height: 1.25em;
+  text-align: center;
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.comparison-section .comparison-product-content .comparison-product-left p {
+  font-size: 14px;
+  line-height: 1.5em;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.comparison-section .comparison-product-content img {
+  height: 290px;
+}
+
+.comparison-section .comparison-product-content .comparison-product-right {
+  background-color: #EEEEEE;
+  padding: 20px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comparison-section .comparison-product-content .comparison-product-right + .comparison-product-right {
+  margin-top: 20px;
+}
+
+.comparison-section .comparison-product-content .comparison-product-right h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25em;
+  text-align: center;
+}
+
+.comparison-section .comparison-product-content .comparison-product-127px {
+  height: 127px;
+}
+
+.comparison-section .comparison-product-content .comparison-product-83px {
+  height: 83px;
+}
+
+.comparison-section .description p {
+  font-size: 18px;
+  line-height: 1.75em;
+  text-align: center;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.comparison-section .description p span {
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.comparison-section .description p + p {
+  margin-top: 30px;
+}
+
+.comparison-section .description img {
+  margin: 0 auto;
+  width: 544px;
+  margin-top: 54px;
+  display: block;
+}
+
+.sustainable-section {
+  padding: 90px 0;
+  background-color: #F6F6F6;
+}
+
+.sustainable-section .sustainable-content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.sustainable-section .sustainable-content h1 {
+  text-transform: uppercase;
+  margin-bottom: 54px;
+  text-align: left;
+}
+
+.sustainable-section p {
+  font-size: 18px;
+  line-height: 1.75em;
+}
+
+.sustainable-section p + p {
+  margin-top: 25px;
+}
+
+.sustainable-section p span {
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.sustainable-section .sustainable-product .sustainable-product-card {
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  margin-top: 240px;
+  padding: 0 18px 60px;
+  border-bottom: 10px solid #593C79;
+  max-height: 100%;
+}
+
+.sustainable-section .sustainable-product .sustainable-product-card img {
+  margin-top: -170px;
+  padding: 0 50px;
+}
+
+.sustainable-section .sustainable-product .sustainable-product-card h5 {
+  color: #593C79;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1em;
+}
+
+.sustainable-section .sustainable-product .sustainable-product-card h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.sustainable-section .sustainable-product .sustainable-product-card p {
+  font-size: 14px;
+  padding: 0;
+  line-height: 1.5em;
+  margin-top: 25px;
+}
+
+.sustainable-section .sustainable-product .sustainable-product-card button {
+  background-color: #593C79;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.1em;
+  width: 250px;
+  height: 70px;
+  border-radius: 0;
+  display: block;
+  margin: 26px auto 0;
+}
+
+.sustainable-section .sustainable-product {
+  padding: 0 85px;
+}
+
+.sustainable-section .sustainable-product .prefiber-max-product-card h5 {
+  color: #836539;
+}
+
+.sustainable-section .sustainable-product .prefiber-max-product-card button {
+  background-color: #836539;
+}
+
+.sustainable-section .sustainable-product .prefiber-max-product-card {
+  border-color: #836539;
+}
+
+.combo-section {
+  padding-top: 90px;
+}
+
+.combo-section h1 {
+  margin-bottom: 40px;
+}
+
+.combo-section h1 span {
+  color: #BF1E2E;
+}
+
+.combo-section p {
+  font-size: 18px;
+  line-height: 1.75em;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.combo-section p span {
+  font-weight: 700;
+}
+
+.combo-section p + p {
+  margin-top: 20px;
+}
+
+.combo-section p + p + p {
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.combo-section .badge-logo {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.combo-section .badge-logo img {
+  width: 255px;
+  margin-right: 40px;
+}
+
+.combo-section .badge-logo img + img {
+  margin: 0;
+}
+
+.combo-section hr {
+  margin: 90px auto;
+  width: 82%;
+}
+
+.combo-section .select-card {
+  width: 55%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.combo-section .select-card img {
+  margin-top: 16px;
+}
+
+.combo-section .select-card img + img {
+  margin-top: 40px;
+}
+
+.combo-section .form-step {
+  width: 87%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #000000;
+}
+
+.combo-section .form-step .form-header {
+  background-color: #BF1E2E;
+  display: flex;
+  align-items: center;
+  padding: 27px 37px;
+}
+
+.combo-section .form-step .form-header h1 {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 31px;
+  line-height: 1.5em;
+}
+
+.combo-section .form-step .form-header p {
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 0;
+  margin-left: 20px;
+  font-weight: 300;
+}
+
+.combo-section .form-step .form-content {
+  padding: 40px 48px;
+}
+
+.combo-section .form-step .form-content label {
+  display: block;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.combo-section .form-step .form-content input {
+  border: 1px solid #707070;
+  width: 100%;
+  height: 58px;
+  margin-bottom: 15px;
+  border-radius: 0px;
+}
+
+.combo-section .form-step .form-content select {
+  border: 1px solid #707070;
+  width: 100%;
+  height: 58px;
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.combo-section .form-step .form-content .country-input {
+  display: flex;
+}
+
+.combo-section .form-step .form-content .country-input div {
+  width: 60%;
+}
+
+.combo-section .form-step .form-content .country-input div + div {
+  margin-left: 10px;
+  width: 40%;
+}
+
+.combo-section .form-step .form-content button {
+  margin: 0 auto;
+  margin-top: 35px;
+  display: block;
+  width: 450px;
+  height: 70px;
+  border-radius: 46px;
+  background: transparent linear-gradient(165deg, #BF1E2E 0%, #81010D 100%);
+  font-size: 22px;
+  line-height: 1.52em;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.combo-section .form-step-2 label {
+  font-size: 18px;
+  line-height: 1em;
+}
+
+.combo-section .form-step-2 label img {
+  height: 39px;
+  margin-left: 20px;
+}
+
+.combo-section .form-step-2 .form-content input {
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+
+.combo-section .form-step-2 .form-content {
+  padding: 50px 125px;
+}
+
+.combo-section .form-step-2 .form-check {
+  padding: 20px 36px;
+}
+
+.combo-section .form-step-2 .form-check.active {
+  border: 1px solid #707070;
+}
+
+.combo-section .form-step-2 .form-check + .form-check {
+  margin-top: 10px;
+}
+
+.combo-section .form-step-2 .form-check + .form-check img {
+  width: 70px;
+}
+
+.combo-section .form-step-3 .form-content {
+  padding: 27px 100px 70px;
+}
+
+.combo-section .combo-summary .cartsubtitle {
+  font-size: 27px;
+  padding: 12px 25px;
+  background-color: #BF1E2E;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.combo-section .combo-summary .summary-content {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.combo-section .combo-summary .summary-content {
+  border-bottom: 1px solid #565656;
+}
+
+.combo-section .combo-summary .summary-content .summary-card {
+  display: flex;
+  align-items: center;
+}
+
+.combo-section .combo-summary .summary-content .free-delivery {
+  background-color: #BF1E2E;
+  border-radius: 50%;
+  width: 83px;
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.combo-section .combo-summary .summary-content .free-delivery img {
+  width: 59px;
+}
+
+.combo-section .combo-summary .price-content {
+  margin-top: 64px;
+}
+
+.combo-section .combo-summary .right-content p {
+  padding: 0;
+  font-size: 18px;
+  text-align: right;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.combo-section .combo-summary .right-content p + p {
+  margin-top: 16px;
+}
+
+.combo-section .combo-summary .right-content p:last-child {
+  color: #BF1E2E;
+}
+
+.combo-section .combo-summary .right-content h6 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.combo-section .combo-summary .right-content h6 + h6 {
+  margin-top: 12px;
+}
+
+.combo-section .combo-summary .price-bottom {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.combo-section .combo-summary .price-bottom h5 {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  margin-right: 18px;
+}
+
+.combo-section .combo-summary .price-bottom .hr-code {
+  width: 93px;
+  height: 49px;
+  padding: 10px 11px;
+  border: 1px solid #101010;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.combo-section .combo-summary .price-bottom .hr-code h4 {
+  font-size: 25px;
+  line-height: 0.8em;
+  color: #FF0000;
+  font-weight: 700;
+}
+
+.combo-section .combo-summary .price-bottom .hr-code p {
+  font-size: 14px;
+  line-height: 1.25em;
+  padding: 0;
+  margin-left: 5px;
+  margin-top: auto;
+}
+
+.combo-section .combo-summary .price-bottom img {
+  width: 12px;
+  margin: 0 5px;
+}
+
+.combo-section .conditions {
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 75%;
+}
+
+.combo-section .conditions p {
+  font-size: 22px;
+  padding: 0;
+  line-height: 1.52em;
+}
+
+.combo-section .conditions p img {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+}
+
+.combo-section .conditions p a {
+  color: #BF1E2E;
+}
+
+.combo-section .description {
+  margin-top: 25px;
+}
+
+.combo-section .description p {
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+.combo-section .description-card p {
+  background-color: #FFFFFF;
+  border: 1px solid #BFBFBF;
+  margin: 29px auto;
+  text-align: center;
+  padding: 15px 35px;
+  width: 69%;
+  font-size: 14px;
+  line-height: 1.7em;
+}
+
+.combo-section button {
+  font-size: 40px;
+  line-height: 1.5em;
+  background: transparent linear-gradient(167deg, #BF1E2E 0%, #81010D 100%);
+  border-radius: 56px;
+  color: #FFFFFF;
+  font-weight: 700;
+  width: 700px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.combo-section .secure-logo-images {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.optionsWrap {
+  display: block;
+  max-width: 676px;
+  margin: auto;
+  text-align: center;
+}
+
+.orderProductBox {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 50px;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+}
+
+.orderProductBox:last-child {
+  margin-bottom: 0 !important;
+}
+
+.orderProductInnerBox {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.orderProductBox input[type=radio] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.orderProductBox .selectedImg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.orderProductBox input[type=radio]:checked + .orderProductInnerBox .selectedImg {
+  opacity: 1;
+}
+
+.orderProductInnerBox img {
+  width: 100%;
+}
+
+.formtitle h2 {
+  font-size: 56px;
+  color: #202120;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.formtitlebg {
+  background: #636363;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 109px;
+  padding: 36px 0;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0px auto;
+  border-radius: 0px;
+  width: 100%;
+  background: #040404;
+}
+
+.steps {
+  color: #ffffff;
+  border-right: 2px solid #ffffff;
+  padding: 0px 25px;
+  font-size: 30px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1.3em;
+  background: #040404;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.stepstext {
+  color: #ffffff;
+  padding: 0 20px;
+  font-size: 23px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+}
+
+.formout {
+  padding: 2% 0% 2%;
+}
+
+.formout {
+  border: 1px solid #707070;
+  padding: 35px 75px;
+}
+
+.pricButton {
+  padding: 25px 0px 0px;
+}
+
+button.first_step_button {
+  background: #b30203;
+  border: 0px;
+  color: #ffffff;
+  padding: 5px 64px;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 2px 2px 3px #b30203;
+  border-radius: 3px;
+  transition: all 0.4s ease-in-out;
+}
+
+button.first_step_button:hover {
+  background: #000000;
+  text-shadow: 2px 2px 3px #2d312d;
+}
+
+.readyToBuyTerms {
+  text-align: center;
+}
+
+#orderform-payment_processor .custom-control-label {
+  font-size: 17px;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px #ffffff solid;
+  width: 100%;
+  border-radius: 80px;
+  padding: 21px 45px;
+  margin: 0px 0px 16px;
+  position: relative;
+}
+
+#orderform-payment_processor .custom-control-label:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 2px #b2b1b1 solid;
+  border-radius: 50%;
+  left: 13px;
+  top: 24px !important;
+}
+
+#orderform-payment_processor .custom-control-label:after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #ffffff;
+  margin-top: 5px;
+  margin-left: 5px;
+  left: 13px;
+  top: 24px !important;
+}
+
+#orderform-payment_processor input:checked + .custom-control-label {
+  border: 2px solid #707070;
+  border-radius: 0px;
+}
+
+#orderform-payment_processor input:checked + .custom-control-label:after {
+  background: #BF1E2E;
+}
+
+.second_step {
+  margin-bottom: 60px;
+  padding-bottom: 0px;
+  margin-top: 60px;
+}
+
+.second_step .custom-control.custom-radio input {
+  display: none;
+}
+
+.step3-tac {
+  text-align: center;
+}
+
+.formout.lableh.cc_field {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.step3-tac input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.mobshowt {
+  width: 100%;
+  padding: 0px 12px;
+  margin-top: -4px;
+}
+
+.step3-tac label {
+  position: relative;
+  cursor: pointer;
+  color: #1b1b1b;
+}
+
+.step3-tac label small {
+  font-size: 100%;
+  font-weight: 500;
+  margin-left: 12px;
+}
+
+.completCon .buttonRow {
+  margin-top: 5px;
+  margin-bottom: 21px;
+}
+
+.step3-tac label small a {
+  color: #ff0000;
+}
+
+.step3-tac input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #007bff !important;
+  background-color: #007bff !important;
+}
+
+label.custom-control-label {
+  position: relative;
+}
+
+.step3-tac .custom-control-label::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -24px;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  border: 1px solid #BF1E2E;
+}
+
+.custom-control-input.is-valid ~ .custom-control-label,
+.was-validated .custom-control-input:valid ~ .custom-control-label {
+  color: #191919;
+}
+
+.readyToBuyTermsContent {
+  max-width: 720px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  color: #999999;
+  margin: 5px auto 90px auto;
+  padding: 20px 20px;
+}
+
+.readyToBuyTermsContent p {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  color: #999999;
+  text-align: center;
+}
+
+.footerSecuritySeals {
+  max-width: 280px;
+  margin: 0 auto 20px auto;
+}
+
+section.mainform {
+  margin-bottom: 50px;
+}
+
+.paymentbtn button#submitBtn {
+  display: block;
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+  line-height: 1.4;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border-radius: 81px;
+  text-align: center;
+  padding: 14px;
+  transition: all 0.4s ease-in-out;
+  text-transform: none;
+}
+
+.paymentbtn button#submitBtn span {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+p.card_txt span {
+  color: #2a2a2a;
+}
+
+p.card_txt {
+  font-size: 14px;
+}
+
+p.card_txt a {
+  color: #1c1c1c;
+}
+
+#orderform-cardnumber.amex {
+  background: url(/images/cc/amex.jpg) no-repeat #fff;
+  background-size: 41px, auto;
+  background-position: right 12px center;
+}
+
+#orderform-cardnumber.visa {
+  background: url(/images/cc/visa.jpg) no-repeat #fff;
+  background-size: 41px, auto;
+  background-position: right 12px center;
+}
+
+#orderform-cardnumber.mastercard {
+  background: url(/images/cc/mastercard.jpg) no-repeat #fff;
+  background-size: 41px, auto;
+  background-position: right 12px center;
+}
+
+#orderform-cardnumber.discover {
+  background: url(/images/cc/discover.jpg) no-repeat #fff;
+  background-size: 41px, auto;
+  background-position: right 12px center;
+}
+
+.terms_text span {
+  font-weight: 600;
+  text-transform: initial;
+}
+
+.terms_text a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #cd0101;
+}
+
+p.upselldtext a {
+  color: #272727;
+}
+
+.ppbtn button#submitBtn {
+  font-size: 40px;
+  line-height: 1.5em;
+  background: transparent linear-gradient(167deg, #BF1E2E 0%, #81010D 100%);
+  border-radius: 56px;
+  color: #FFFFFF;
+  font-weight: 700;
+  width: 746px;
+  height: 110px;
+  margin: 0 auto;
+  display: block;
+}
+
+.container .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.discaimert {
+  padding: 51px 0px;
+}
+
+.discaimertextt {
+  max-width: 550px;
+  font-weight: 300;
+  font-size: 12px;
+  color: #999999;
+  line-height: 1.6;
+  text-align: center;
+  border: 1px solid #999999;
+  margin: auto;
+  padding: 19px;
+}
+
+.notice-box {
+  font-size: 17px;
+  color: #939393;
+  padding: 14px 22px 2px;
+  border: 1px #939393 solid;
+  margin: 0px 0px 41px;
+  line-height: 1.3em;
+}
+
+section.cart-section.mt-120 {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.form-group.field-upsellform-pro_selected,
+.form-group.field-upsellform-previous_order_id.required {
+  padding: 0px !important;
+  border: 0px !important;
+  margin-bottom: 0px;
+}
+
+.complete-order .container form button.upsellb {
+  max-width: 836px !important;
+  height: 103px;
+  color: transparent;
+  font-size: 1px;
+  background-size: 100% !important;
+  width: 100% !important;
+}
+
+/* cart section */
+.ordercartin {
+  padding: 0px;
+  max-width: 650px;
+  width: 100%;
+  margin: 62px auto 21px;
+}
+
+.cartsubtitle {
+  padding: 12px 12px;
+  border-left: 0px;
+  border-right: 0px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #191919;
+  color: #fff;
+}
+
+.cartbigtitle {
+  padding-left: 2%;
+  padding-bottom: 21px;
+}
+
+.cartsubtitlel {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1em;
+  padding-top: 5px;
+}
+
+.cartprodes {
+  border-bottom: 1px solid #191919;
+  padding: 16px 0px 16px 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.cart-product-thumb.order_det_img {
+  margin-right: 5%;
+  max-width: 100px;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+h4#productDesc {
+  font-weight: 600;
+  font-size: 19px;
+  width: 100%;
+  margin: 0px 0px -3px;
+}
+
+p#productDescTwo {
+  color: #404040;
+  font-size: 16px;
+}
+
+.cartshipt {
+  position: absolute;
+  opacity: 0;
+}
+
+.shipping {
+  border-top: 1px #42a241 solid;
+  padding: 15px 0px 6px;
+  padding-left: 2%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: justify;
+  justify-content: flex-end;
+  font-weight: 400;
+  font-size: 17px;
+  color: #202020;
+}
+
+h4.shipping-text {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.subtotalt {
+  padding: 0px 0px 8px;
+  padding-left: 2%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subtotalt {
+  font-weight: 400;
+  font-size: 17px;
+  color: #202020;
+}
+
+#shipping_price,
+.cart span {
+  color: #202020;
+}
+
+.pwidth {
+  max-width: 100px;
+  width: 100%;
+  text-align: right;
+}
+
+.cart-product-price {
+  margin-left: auto;
+  font-weight: 500;
+  font-size: 17px;
+  color: #202020;
+}
+
+.total.cartt {
+  padding: 0px 0px 0px 2%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ototal h3 {
+  font-weight: 600;
+  font-size: 19px;
+  color: #c71721;
+}
+
+.total .cart_totalout {
+  color: #42a241;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cartsubtitler {
+  font-size: 25px;
+  font-weight: 200;
+  color: #42a241;
+  line-height: 1em;
+  padding-right: 8px;
+}
+
+/* cart section */
+.modal-backdrop {
+  z-index: 11;
+}
+
+.backbtn {
+  padding-top: 21px;
+}
+
+.order-pcontent {
+  max-width: 880px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+}
+
+.order-pcontent p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.order-pcontent h5 {
+  margin-bottom: 1px;
+  margin-top: 23px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.bannerBtn .back-button {
+  background: #42a241;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fb0000), to(#a80000));
+  background: -o-linear-gradient(top, #fb0000 0%, #a80000 100%);
+  background: linear-gradient(180deg, #fb0000 0%, #a80000 100%);
+  display: inline-block;
+  padding: 17px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 100px;
+  text-align: center;
+  border: 0;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 50px;
+  line-height: 1.2;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.back-button:hover {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.ordercartin .cartfoot {
+  display: flex;
+  flex-direction: column;
+}
+
+.ordercartin .cartfoot .left .pwidth {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.ordercartin .cartfoot .right {
+  margin-top: 50px;
+}
+
+.ordercartin .cartfoot .saving-banner {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding: 20px 10px;
+  font-family: Poppins, sans-serif;
+  z-index: 1;
+}
+
+.ordercartin .cartfoot .saving-banner:before,
+.ordercartin .cartfoot .saving-banner:after {
+  content: "";
+  height: 100%;
+  width: 90%;
+  position: absolute;
+  transform-origin: top center;
+  left: 2%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: -50;
+}
+
+.ordercartin .cartfoot .saving-banner:before {
+  background: #BF1E2E;
+  border-radius: 10px;
+  transform: skewX(-15deg) rotateZ(2deg);
+  left: 10%;
+}
+
+.ordercartin .cartfoot .saving-banner:after {
+  background: #000000;
+  border-radius: 10px;
+  transform: skewX(-15deg) rotateZ(-2deg);
+}
+
+.ordercartin .cartfoot .saving-banner .top {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ordercartin .cartfoot .saving-banner .top .color-yellow {
+  color: #ffc100;
+}
+
+.ordercartin .cartfoot .saving-banner .middle {
+  color: #00ff54;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.ordercartin .cartfoot .saving-banner .middle span {
+  color: #00ff54;
+}
+
+.ordercartin .cartfoot .saving-banner .bot {
+  font-size: 10px;
+  padding-right: 30px;
+}
+
+.special-timer {
+  margin: 30px 0;
+  font-family: Poppins, sans-serif;
+  font-size: 25px;
+}
+
+.special-timer > div {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.special-timer .square {
+  font-style: normal;
+  display: inline-block;
+  border: 1px solid #707070;
+  border-radius: 7px;
+  padding: 0 5px;
+  color: #ff0000;
+  margin: 0 5px;
+}
+
+.special-timer .square .text-red {
+  color: #ff0000;
+}
+
+.special-timer .square small {
+  font-size: 0.5em;
+  color: #000;
+}
+
+.special-timer .hS3p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.ordercartin .cartfoot {
+  flex-direction: row;
+  padding: 50px 0 30px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ordercartin .cartfoot .right {
+  margin-top: 0;
+  order: 1;
+  flex: 1 1 auto;
+}
+
+.ordercartin .cartfoot .left {
+  order: 2;
+  flex: 0 0 220px;
+}
+
+.ordercartin .cartfoot .left .shipping {
+  border-top: 0;
+}
+
+.ordercartin .cartfoot .saving-banner .top {
+  font-size: 25px;
+}
+
+.ordercartin .cartfoot .saving-banner .middle {
+  font-size: 21px;
+}
+
+.ordercartin .cartfoot .saving-banner .bot {
+  font-size: 15px;
+}
+
+.special-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 29px;
+}
+
+.special-timer > div {
+  font-size: 27px;
+  margin-right: 15px;
+  margin-bottom: 0;
+}
+
+.step3-tac input:checked ~ .custom-control-label::before {
+  background-image: url(/images/keto-cider/icon/check-svgrepo-com.png);
+  background-size: 100% 100%;
+  border: 0 !important;
+  background-color: transparent !important;
+}
+
+.step3-tac input {
+  display: none;
+}
+
+.uncomplete-banner-sectione {
+  padding: 131px 0;
+  background-image: url(/images/keto-cider/bg-images/result-bg-image.png);
+  background-size: 100% 100%;
+}
+.uncomplete-banner-sectione h6 {
+  font-size: 25px;
+  line-height: 1.5em;
+  text-align: center;
+  color: #BF1E2E;
+  font-weight: 700;
+}
+.uncomplete-banner-sectione h1 {
+  text-align: center;
+}
+
+.limited-offer-section {
+  padding: 110px 0;
+}
+.limited-offer-section h6 {
+  text-align: center;
+  color: #BF1E2E;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.5em;
+}
+.limited-offer-section h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+.limited-offer-section h1 span {
+  color: #BF1E2E;
+}
+.limited-offer-section p {
+  text-align: center;
+  font-style: italic;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.limited-offer-section .bhb-max-content {
+  margin-left: -57px;
+  padding-right: 20px;
+}
+.limited-offer-section .bhb-max-content h2 {
+  font-size: 31px;
+  line-height: 1.5em;
+}
+.limited-offer-section .bhb-max-content h2 span {
+  color: #BF1E2E;
+  font-weight: 700;
+}
+.limited-offer-section .bhb-max-content ul {
+  margin-top: 25px;
+  padding-left: 50px;
+}
+.limited-offer-section .bhb-max-content ul li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 2.75em;
+  position: relative;
+}
+.limited-offer-section .bhb-max-content ul li::after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -29px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-image: url(/images/keto-cider/icon/check-svgrepo-com.png);
+  background-size: 100% 100%;
+}
+.limited-offer-section .bhb-max-content ul li .bhb-offer-section {
+  padding-bottom: 60px;
+}
+
+.login-section .bhb-offer-content {
+  width: 86%;
+  margin: 0 auto;
+}
+.login-section .bhb-offer-content h3 {
+  margin-top: 70px;
+  line-height: 1.6em;
+}
+.login-section .bhb-offer-content h3 span {
+  color: #BF1E2E;
+}
+.login-section .bhb-offer-content p {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 18px;
+  line-height: 2em;
+  font-weight: 600;
+}
+.login-section .bhb-offer-content .bhb-offer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+.login-section .bhb-offer-content .bhb-offer-list li {
+  list-style: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border: 1px solid #BF1E2E;
+  border-left: 9px solid #BF1E2E;
+  border-radius: 13px;
+  padding: 22px 37px 22px 47px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4em;
+  position: relative;
+  margin-bottom: 31px;
+  max-width: 455px;
+}
+.login-section .bhb-offer-content .bhb-offer-list li::after {
+  content: "";
+  background-image: url(/images/keto-cider/icon/list-style-icon.png);
+  background-size: 100% 100%;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 3%;
+}
+
+.bhb-gummies-section {
+  padding-top: 100px;
+}
+.bhb-gummies-section h1 {
+  color: #BF1E2E;
+}
+.bhb-gummies-section h1 span {
+  color: #000000;
+}
+.bhb-gummies-section p {
+  font-size: 21px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.bhb-gummies-section .bhb-gummies-content {
+  display: flex;
+  align-items: center;
+  width: 71%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-bottom: 1px solid #434343;
+  padding-bottom: 60px;
+}
+.bhb-gummies-section .bhb-gummies-content img {
+  width: 266px;
+}
+.bhb-gummies-section .bhb-gummies-content ul {
+  padding-left: 60px;
+}
+.bhb-gummies-section .bhb-gummies-content ul li {
+  font-size: 18px;
+  line-height: 2.25em;
+  font-weight: 500;
+  list-style: none;
+  position: relative;
+}
+.bhb-gummies-section .bhb-gummies-content ul li::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -26px;
+  background-image: url(/images/keto-cider/icon/arrow-right.png);
+  width: 15px;
+  height: 17px;
+  background-size: 100% 100%;
+}
+.bhb-gummies-section .bhb-runing-offer-content p {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+.bhb-gummies-section .bhb-runing-offer-content h1 {
+  margin-top: 10px;
+  text-align: center;
+}
+.bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card {
+  border: 10px solid #BF1E2E;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 70px 90px;
+  text-align: center;
+}
+.bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card h3 {
+  font-size: 31px;
+  font-weight: 600;
+}
+.bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card .complete-order {
+  margin-top: 27px;
+  background: transparent linear-gradient(167deg, #009B43 0%, #005E29 100%);
+  font-size: 40px;
+  color: #FFFFFF;
+  padding: 20px 120px;
+  border-radius: 56px;
+  font-weight: 600;
+}
+.bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card .subscription-terms p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5em;
+  margin-top: 40px;
+}
+.bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card .subscription-terms p a {
+  color: #BF1E2E;
+}
+.bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card .subscription-terms p img {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  margin-right: 5px;
+}
+.bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7em;
+  padding: 0 50px;
+}
+.bhb-gummies-section .accelerate-results {
+  display: block;
+  margin-top: 50px;
+  font-size: 14px;
+  line-height: 1.7em;
+  text-align: center;
+  color: #000000;
+}
+
+.step3-tac input {
+  position: relative;
+  top: 19px;
+  left: 45px;
+}
+
+.bhb-gummies-section .step3-tac .custom-control-label::before {
+  left: 169px;
+  top: -2px;
+}
+
+.reminder-content-section {
+  padding-top: 80px;
+  background-image: url(/images/keto-cider/bg-images/thankyou-bg-image.png);
+  background-size: 100% 100%;
+}
+
+.reminder-content-section h6 {
+  font-size: 25px;
+  line-height: 1.5em;
+  color: #BF1E2E;
+  text-align: center;
+  font-weight: 500;
+}
+
+.reminder-content-section h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.reminder-content-section h1 span {
+  color: #BF1E2E;
+}
+
+.reminder-content-section .nav-pills {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: fit-content;
+  margin-bottom: 0 !important;
+}
+
+.reminder-content-section .nav-pills .nav-item .nav-link {
+  width: 200px;
+  height: 96px;
+  font-size: 31px;
+  font-weight: 700;
+  background-color: #DEDEDE;
+  margin-left: 24px;
+  color: #434343;
+  border-radius: 0px;
+}
+
+.reminder-content-section .nav-pills li:first-child {
+  border-radius: 58px 0px 0px 0px;
+  margin-left: 0;
+}
+
+.reminder-content-section .nav-pills li:last-child {
+  border-radius: 0px 58px 0px 0px;
+}
+
+.reminder-content-section .nav-pills .nav-link.active {
+  background-color: #BF1E2E;
+  color: #FFFFFF;
+}
+
+.reminder-content-section .reminder-content {
+  background: transparent linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+}
+
+.reminder-content-section .reminder-content .tab-description {
+  padding-top: 42px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.reminder-content-section .reminder-content .tab-description p {
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+
+.reminder-content-section .reminder-content .tab-description p span {
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.reminder-content-section .next-tab-button {
+  background-color: #009B43;
+  width: 238px;
+  height: 90px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 69px;
+  font-size: 35px;
+  color: #FFFFFF;
+  font-weight: 500;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reminder-content-section .reminder-content .tab-description h5 {
+  font-size: 21px;
+  line-height: 1.6em;
+  text-align: center;
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.reminder-content-section .reminder-content .tab-description h6 {
+  text-align: center;
+  line-height: 2em;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.reminder-content-section .reminder-content .tab-description ul {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.reminder-content-section .reminder-content .tab-description ul li {
+  font-size: 18px;
+  line-height: 2.25em;
+  list-style: none;
+  position: relative;
+}
+
+.reminder-content-section .reminder-content .tab-description ul li span {
+  font-weight: 600;
+}
+
+.reminder-content-section .reminder-content .tab-description ul li::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -30px;
+  width: 22px;
+  height: 22px;
+  background-image: url(/images/keto-cider/icon/check-svgrepo-com.png);
+  background-size: 100% 100%;
+}
+
+.page-description-section {
+  padding: 70px 0;
+}
+
+.page-description-section p {
+  background-color: #FFFFFF;
+  border: 1px solid #BFBFBF;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 35px;
+  width: 70%;
+  font-size: 14px;
+  line-height: 1.7em;
+}
+
+.checkoutltv-page .section-1 h2 {
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #C5AF3B;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.checkoutltv-page .section-1 p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.checkoutltv-page .section-1 ul.quiz-tabs {
+  display: flex;
+  list-style: none;
+  margin-top: 50px;
+}
+
+.checkoutltv-page .section-1 ul.quiz-tabs li {
+  width: 200px;
+  height: 96px;
+  font-size: 31px;
+  font-weight: 700;
+  background-color: #DEDEDE;
+  margin-left: 24px;
+  color: #434343;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkoutltv-page .section-1 ul.quiz-tabs li:first-child {
+  border-radius: 58px 0px 0px 0px;
+  margin-left: 0;
+}
+
+.checkoutltv-page .section-1 ul.quiz-tabs li:last-child {
+  border-radius: 0px 58px 0px 0px;
+}
+
+.checkoutltv-page .section-1 ul.quiz-tabs li.active {
+  background-color: #BF1E2E;
+  color: #FFFFFF;
+}
+
+.checkoutltv-page .section-2 .quizzes {
+  display: none;
+}
+
+.checkoutltv-page .section-2 .quizzes.active {
+  display: block;
+}
+
+.checkoutltv-page .section-1 h2 {
+  font-size: 40px;
+}
+
+.checkoutltv-page .section-1 p {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.checkoutltv-page .section-1 ul.quiz-tabs {
+  display: flex;
+}
+
+.thanksyou-hero-section {
+  padding: 121px 0;
+  background-image: url(/images/keto-cider/bg-images/thankyou-bg-image.png);
+  background-color: 100% 100%;
+}
+
+.thanksyou-hero-section h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.thanksyou-hero-section h1 span {
+  color: #BF1E2E;
+}
+
+.thanksyou-hero-section h4 {
+  font-size: 31px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin-top: 39px;
+  text-transform: uppercase;
+}
+
+.thanksyou-hero-section .register-button p {
+  text-align: center;
+  color: #BF1E2E;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.8em;
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+.thanksyou-hero-section .register-button p img {
+  width: 18px;
+  height: 19px;
+  margin: 0 15px;
+}
+
+.thanksyou-hero-section .register-button p a {
+  font-weight: 700;
+  color: #BF1E2E;
+}
+
+.thanksyou-hero-section .thanksyou-hero-list {
+  margin: 0;
+}
+
+.thanksyou-hero-section .thanksyou-hero-list li {
+  list-style: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border: 1px solid #BF1E2E;
+  border-left: 9px solid #BF1E2E;
+  border-radius: 13px;
+  padding: 22px 0px 22px 47px;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.4em;
+  position: relative;
+  margin-bottom: 31px;
+  width: 80%;
+}
+
+.thanksyou-hero-section .thanksyou-hero-list li::after {
+  content: "";
+  background-image: url(/images/keto-cider/icon/list-style-icon.png);
+  background-size: 100% 100%;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 3%;
+}
+
+.thanksyou-hero-section .thanksyou-hero-product-image {
+  height: 500px;
+  margin-right: -110px;
+  margin-top: -21px;
+}
+
+.login-section {
+  background-color: #F9F9F9;
+  padding-bottom: 75px;
+}
+
+.login-section .login-container {
+  position: relative;
+}
+
+.login-section .login-container::after {
+  content: "";
+  position: absolute;
+  top: -55px;
+  left: 19%;
+  background-image: url(/images/keto-cider/bg-images/limited-time.png);
+  background-size: 100% 100%;
+  width: 744px;
+  height: 156px;
+}
+
+.login-section h2 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 111;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+
+.login-section h5 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 2.5em;
+  text-align: center;
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+.login-section h5 span {
+  color: #BF1E2E;
+}
+
+.login-section input {
+  display: block !important;
+  margin: 0 auto !important;
+  margin-top: 30px !important;
+  font-size: 16px !important;
+  line-height: 1.1em !important;
+  padding: 20px 150px 20px 28px !important;
+}
+
+.login-section input::placeholder {
+  font-size: 16px;
+  line-height: 1.1em;
+}
+
+.login-section .submit-button {
+  width: 450px;
+  height: 85px;
+  border-radius: 43px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  background: transparent linear-gradient(177deg, #BF1E2E 0%, #85000D 100%);
+  font-size: 22px;
+  line-height: 1.875em;
+  display: block;
+  margin: 0 auto;
+  color: #FFFFFF;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.login-section .description {
+  max-width: 825px;
+  margin: 0 auto;
+  margin-top: 43px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login-section .description h3 {
+  font-size: 22px;
+  line-height: 0.8em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.login-section .description h3 span {
+  color: #BF1E2E;
+}
+
+.login-section .description ul {
+  margin-top: 55px;
+}
+
+.login-section .description ul li b {
+  font-weight: 700;
+}
+
+.login-section .description ul li {
+  font-size: 18px;
+  line-height: 2.25em;
+  list-style: none;
+  position: relative;
+  text-align: left;
+}
+
+.login-section .description ul li::after {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -30px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-image: url(/images/keto-cider/icon/check-svgrepo-com.png);
+  background-size: 100% 100%;
+}
+
+.c-web-form__error {
+  text-align: center;
+  margin-bottom: -22px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero-section .hero-container .hero-product-image {
+    position: static;
+    height: auto;
+    margin-top: 30px;
+  }
+  .header-section .navbar .navbar-brand .desktop-logo {
+    display: none;
+  }
+  .header-section .navbar .navbar-brand .mobile-logo {
+    display: block;
+  }
+  .footer-section .footer-logo {
+    width: 230px;
+  }
+  .footer-section ul li a {
+    font-size: 13px;
+  }
+  .footer-section .footer-contact {
+    margin: 0 auto;
+  }
+  .hero-section .hero-content h1 {
+    font-size: 22px;
+    line-height: 1.52em;
+  }
+  .hero-section .hero-content p {
+    font-size: 17px;
+    width: 100%;
+  }
+  .hero-section .hero-content .hero-description p {
+    width: 100%;
+  }
+  .planing-section {
+    padding: 0;
+  }
+  .planing-section .container {
+    padding: 0;
+  }
+  .planing-section .planing-content h1 {
+    font-size: 26px;
+    line-height: 1.3em;
+  }
+  .planing-section .planing-content p {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  .planing-section .planing-content .planing-card .floater {
+    font-size: 61px;
+    line-height: 1.5em;
+  }
+  .planing-section .planing-content .planing-card .card-description h4 {
+    font-size: 17px;
+    line-height: 1.5em;
+  }
+  .planing-section .planing-content .planing-card img {
+    position: static;
+    margin-top: -93px;
+    object-fit: cover;
+  }
+  .planing-section .planing-content .planing-card .card-description {
+    margin-top: -10px;
+    background: #632329;
+  }
+  .planing-section .planing-content .planing-card .card-description p {
+    font-size: 14px;
+    line-height: 1.56em;
+    margin-top: 9px;
+  }
+  .progress-section .progress-content h1 {
+    font-size: 27px;
+    line-height: 1.3em;
+    padding: -20px;
+  }
+  .progress-section .progress-content p {
+    font-size: 14px;
+    text-align: left;
+    padding: 0 12px;
+    margin-top: 20px;
+  }
+  .results-section,
+  .progress-section {
+    padding: 60px 0;
+  }
+  .results-section h1 {
+    font-size: 26px;
+    line-height: 1.3em;
+    padding: -20px;
+  }
+  .results-section .results-container img {
+    position: static;
+    margin-top: 60px;
+    padding: 0 15px;
+  }
+  .results-section .results-description {
+    margin-top: 70px;
+  }
+  .results-section .results-description p {
+    line-height: 1.3em;
+    padding: 15px 25px;
+  }
+  .results-section .results-container > p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  .compare-section {
+    padding-top: 40px;
+    padding-bottom: 130px;
+  }
+  .compare-section h1 {
+    font-size: 26px;
+  }
+  .compare-section p {
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .compare-section img {
+    margin-top: 10px;
+  }
+  .compare-section .outshines-description h1 {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .compare-section .outshines-description ul {
+    margin: 30px auto 0;
+  }
+  .keto-help-section .keto-help-container .product-images {
+    margin-top: -90px;
+    margin-bottom: 60px;
+  }
+  .keto-help-section h1 {
+    font-size: 23px;
+    line-height: 1.4em;
+    margin: 0 auto 40px;
+  }
+  .keto-help-section .blog-card .blog-description {
+    padding: 18px 23px 21px;
+  }
+  .keto-help-section .blog-card .blog-description h6 {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  .keto-help-section .blog-card .blog-description p {
+    line-height: 1.5em;
+  }
+  .keto-help-section {
+    padding-bottom: 50px;
+  }
+  .offer-section {
+    padding-top: 50px;
+    padding-bottom: 56px;
+  }
+  .offer-section .special-offer {
+    width: 100%;
+  }
+  .offer-section h1 {
+    margin-top: 80px;
+    font-size: 25px;
+    line-height: 1.4em;
+  }
+  .offer-section .offer-card {
+    margin-top: 45px;
+    flex-flow: column;
+  }
+  .offer-section .offer-card .offer-card-content {
+    padding: 20px;
+  }
+  .offer-section .offer-card .offer-card-content h6 {
+    font-size: 20px;
+    line-height: 1.8em;
+  }
+  .offer-section .offer-card .offer-card-content p {
+    margin-top: 15px;
+  }
+  .offer-section .offer-card img {
+    width: 100% !important;
+    height: auto;
+  }
+  .offer-section .offer-card-reverse {
+    flex-flow: wrap-reverse;
+  }
+  .offer-section .offer-description p {
+    padding: 0;
+    text-align: left;
+    margin-top: 40px;
+  }
+  .comprehensive-section h1 {
+    font-size: 25px;
+    line-height: 1.4em;
+    margin-bottom: 35px;
+  }
+  .comprehensive-section .comprehensive-product {
+    left: 0;
+  }
+  .comprehensive-section .comprehensive-vector {
+    position: relative;
+    top: -45px;
+    left: 0;
+    width: 100%;
+  }
+  .comprehensive-section ul {
+    margin: 0;
+    padding-left: 35px;
+  }
+  .comprehensive-section ul li {
+    font-size: 18px;
+    line-height: 2.5em;
+  }
+  .comprehensive-section {
+    padding-bottom: 60px;
+  }
+  .reveiw-section {
+    padding-top: 55px;
+    padding-bottom: 45px;
+  }
+  .reveiw-section h1 {
+    font-size: 25px;
+    line-height: 1.4em;
+    margin-bottom: 70px;
+  }
+  .reveiw-section .reveiw-card .reveiw-card-content .quote-image {
+    width: 30px;
+    height: 22px;
+    margin-top: -11px;
+  }
+  .reveiw-section .reveiw-card .reveiw-card-content h5 {
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  .reveiw-section .reveiw-card .reveiw-card-content {
+    padding: 0 19px 20px;
+  }
+  .reveiw-section .reveiw-card .reveiw-card-content .toppng-five-image {
+    width: 100px;
+    height: 20px;
+  }
+  .reveiw-section .reveiw-card .reveiw-card-content .avatar p {
+    font-size: 12px;
+  }
+  .reveiw-section .reveiw-card .reveiw-card-content .avatar p img {
+    width: 15px;
+    height: 15px;
+  }
+  .supplement-section {
+    padding: 50px 0 60px 0;
+  }
+  .supplement-section h1 {
+    font-size: 25px;
+    line-height: 1.4em;
+  }
+  .supplement-section .supplement-card .quote-image {
+    width: 40px;
+    height: 29px;
+    top: -14px;
+  }
+  .supplement-section .supplement-card h5 {
+    font-size: 20px;
+    line-height: 1.3em;
+  }
+  .formula-section {
+    padding-top: 55px;
+    padding-bottom: 68px;
+  }
+  .formula-section h1 {
+    padding: 0;
+    font-size: 25px;
+    line-height: 1.4em;
+    margin-bottom: 40px;
+  }
+  .formula-section .formula-description h4 {
+    font-size: 20px;
+    line-height: 1.3em;
+  }
+  .formula-section .formula-description {
+    max-width: 100%;
+  }
+  .formula-section hr {
+    margin: 60px auto;
+    width: 100%;
+  }
+  .formula-section .premium-cider {
+    width: 100%;
+  }
+  .formula-section .premium-cider .premium-description {
+    padding: 30px 18px 33px;
+  }
+  .formula-section .premium-cider .premium-description h3 {
+    font-size: 20px;
+  }
+  .formula-section .premium-cider .premium-description p {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  .formula-section .premium-cider .premium-description h4 {
+    font-size: 18px;
+    margin-top: 31px;
+    padding: 10px 37px 10px 19px;
+    margin-left: -17px;
+    width: fit-content;
+    background-size: 100% 100%;
+  }
+  .formula-offer-section h1 {
+    font-size: 27px;
+    line-height: 1.3em;
+    margin-bottom: 35px;
+  }
+  .formula-offer-section h3 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .formula-offer-section ul {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .formula-offer-section ul li {
+    line-height: 1.25em;
+  }
+  .formula-offer-section ul li + li {
+    margin-top: 23px;
+  }
+  .formula-offer-section ul li::after {
+    top: 2px;
+  }
+  .formula-offer-section h5 {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-top: 40px;
+  }
+  .formula-offer-section p {
+    width: 100%;
+    margin-top: 60px;
+    padding: 22px 20px;
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+  .formula-offer-section .logo-image {
+    display: none;
+  }
+  .footer-section {
+    padding: 54px 0;
+  }
+  .footer-section .footer-menu {
+    display: flex;
+    flex-flow: wrap-reverse;
+  }
+  .footer-section ul {
+    padding: 0;
+  }
+  .footer-section ul li {
+    font-size: 12px;
+  }
+  .footer-section .footer-contact .order-button {
+    display: none;
+  }
+  .footer-section p {
+    margin-top: 25px;
+    font-size: 11px;
+    line-height: 2em;
+  }
+  .header-section .navbar .contact-number img {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+  }
+  .header-section .navbar .contact-number p {
+    font-size: 9px;
+  }
+  .header-section .navbar .contact-number a {
+    font-size: 13px;
+    display: block;
+  }
+  .navbar-light .navbar-toggler-icon {
+    width: 30px;
+    height: 25px;
+    background-size: 100% 100%;
+  }
+  .navbar-light .navbar-toggler {
+    border: 0;
+  }
+  .secure-logo-images {
+    position: absolute;
+    bottom: -52px;
+    left: 13%;
+  }
+  .hero-section {
+    padding-top: 110px;
+  }
+  .uncomplete-banner-sectione {
+    padding-top: 110px;
+    padding-bottom: 30px;
+  }
+  .uncomplete-banner-sectione h6 {
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 0 37px;
+  }
+  .uncomplete-banner-sectione h1 {
+    font-size: 31px;
+    line-height: 1.4em;
+    margin-top: 20px;
+  }
+  .limited-offer-section {
+    padding-top: 67px;
+    padding-bottom: 80px;
+  }
+  .limited-offer-section h6 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5em;
+  }
+  .limited-offer-section h1 {
+    font-size: 36px;
+  }
+  .limited-offer-section p {
+    font-size: 16px;
+    padding: 0 20px;
+    line-height: 1.5em;
+    margin-top: 30px;
+  }
+  .limited-offer-section .bhb-max-content h2 {
+    font-size: 27px;
+    line-height: 1.3em;
+  }
+  .limited-offer-section .bhb-max-content {
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+  .limited-offer-section .bhb-max-content ul {
+    margin-top: 20px;
+    padding-left: 32px;
+  }
+  .limited-offer-section .bhb-max-content ul li {
+    font-size: 14px;
+    line-height: 3em;
+  }
+  .limited-offer-section .bhb-max-content ul li::after {
+    top: 10px;
+  }
+  .login-section .login-container::after {
+    top: -26px;
+    left: 0%;
+    width: 100%;
+    height: 75px;
+  }
+  .login-section h2 {
+    font-size: 23px;
+    position: relative;
+    top: -6px;
+  }
+  .bhb-gummies-section .step3-tac .custom-control-label::before {
+    left: -20px;
+    top: -1px;
+  }
+  .login-section .bhb-offer-content h3 {
+    font-size: 27px;
+    margin-top: 35px;
+    line-height: 1.3em;
+  }
+  .login-section .bhb-offer-content p {
+    font-size: 16px;
+    margin-top: 26px;
+    line-height: 1.3em;
+  }
+  .login-section .bhb-offer-content .bhb-offer-list {
+    margin-top: 50px;
+    padding: 0;
+  }
+  .login-section .bhb-offer-content {
+    width: 95%;
+  }
+  .login-section .bhb-offer-content .bhb-offer-list li {
+    padding: 26px 11px 26px 47px;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-bottom: 26px;
+  }
+  .bhb-offer-section {
+    padding-bottom: 42px;
+  }
+  .bhb-gummies-section {
+    padding-top: 60px;
+  }
+  .bhb-gummies-section h1 {
+    font-size: 27px;
+    padding: 0 10px;
+    line-height: 1.3em;
+  }
+  .bhb-gummies-section p {
+    font-size: 16px;
+    line-height: 1.3em;
+  }
+  .bhb-gummies-section .bhb-gummies-content {
+    display: block;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .bhb-gummies-section .bhb-gummies-content img {
+    width: 266px;
+    display: block;
+    margin: 0 auto;
+  }
+  .bhb-gummies-section .bhb-gummies-content ul {
+    padding-left: 32px;
+    margin-top: 20px;
+  }
+  .bhb-gummies-section .bhb-gummies-content ul li {
+    font-size: 16px;
+    line-height: 1.3em;
+  }
+  .bhb-gummies-section .bhb-gummies-content ul li + li {
+    margin-top: 20px;
+  }
+  .bhb-gummies-section .bhb-gummies-content ul li::after {
+    top: 2px;
+  }
+  .bhb-gummies-section .bhb-runing-offer-content p {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.25em;
+    padding: 0px 50px;
+  }
+  .bhb-gummies-section .bhb-runing-offer-content h1 {
+    font-size: 35px;
+    line-height: 1.5em;
+  }
+  .bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card {
+    width: 100%;
+    margin-top: 39px;
+    padding: 50px 25px;
+  }
+  .bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card h3 {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  .bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card .complete-order {
+    width: 100%;
+    font-size: 18px;
+    padding: 18px 40px;
+    margin-top: 30px;
+  }
+  .bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card .subscription-terms p {
+    margin-top: 26px;
+    padding: 0;
+    font-size: 11px;
+  }
+  .bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card .subscription-terms p img {
+    width: 17px;
+    height: 17px;
+    margin-right: 2px;
+  }
+  .bhb-gummies-section .bhb-runing-offer-content .bhb-runing-offer-card p {
+    font-size: 9px;
+    padding: 0;
+    margin-top: 30px;
+    line-height: 1.5em;
+  }
+  .bhb-gummies-section .accelerate-results {
+    margin-top: 33px;
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  .page-description-section {
+    padding-top: 85px;
+    padding-bottom: 50px;
+  }
+  .page-description-section p {
+    width: 100%;
+    padding: 23px 20px;
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+  .thanksyou-hero-section h1 {
+    font-size: 31px;
+    line-height: 1.4em;
+  }
+  .thanksyou-hero-section {
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+  .thanksyou-hero-section h4 {
+    font-size: 22px;
+    margin-top: 17px;
+  }
+  .thanksyou-hero-section .register-button p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .thanksyou-hero-section .register-button p img {
+    width: 15px;
+    height: 15px;
+  }
+  .thanksyou-hero-section .thanksyou-hero-product-image {
+    height: auto;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .thanksyou-hero-section .thanksyou-hero-list {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .thanksyou-hero-section .thanksyou-hero-list li {
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .login-section h5 {
+    font-size: 23px;
+    line-height: 1.5em;
+    margin-top: 40px;
+  }
+  .login-section input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+  }
+  .login-section .submit-button {
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+    line-height: 1.5px;
+    margin-top: 25px;
+  }
+  .login-section .description h3 {
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  .login-section .description {
+    margin-top: 35px;
+  }
+  .login-section .description ul {
+    margin: 0px;
+  }
+  .login-section .description ul li {
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-top: 23px;
+  }
+  .login-section .description ul li::after {
+    top: 0px;
+  }
+  .login-section {
+    padding-bottom: 60px;
+  }
+  .reminder-content-section h6 {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  .reminder-content-section h1 {
+    font-size: 31px;
+    line-height: 1.4em;
+  }
+  .reminder-content-section .nav-pills .nav-item {
+    width: 100%;
+  }
+  .reminder-content-section .nav-pills .nav-item .nav-link-first {
+    border-radius: 58px 58px 0 0;
+    margin-left: 0;
+  }
+  .reminder-content-section .nav-pills .nav-item .nav-link {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .reminder-content-section .nav-pills .nav-item .nav-link-last {
+    border-radius: 0px 0 58px 58px;
+  }
+  .reminder-content-section .nav-pills {
+    width: 100%;
+    margin: 0;
+  }
+  .reminder-content-section .next-tab-button {
+    background-color: #009B43;
+    width: 100%;
+    height: 70px;
+    margin-top: 40px;
+    font-size: 25px;
+  }
+  .order-hero-section h1 {
+    font-size: 31px;
+    line-height: 1.4em;
+  }
+  .order-hero-section p {
+    line-height: 1.3em;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .order-hero-section h3 {
+    line-height: 1.5em;
+    font-size: 20px;
+    top: -7px;
+    padding: 20px 0;
+  }
+  .order-commit-section {
+    padding-top: 68px;
+  }
+  .order-commit-section h1 {
+    font-size: 27px;
+    line-height: 1.3em;
+  }
+  .order-commit-section p {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.5em;
+  }
+  .order-unlock-power-section img {
+    height: auto;
+    position: static;
+    margin-top: -133px;
+  }
+  .order-unlock-power-section h1 {
+    font-size: 27px;
+    line-height: 1.3em;
+    margin-top: 30px;
+  }
+  .order-unlock-power-section ul li {
+    font-size: 16px;
+    line-height: 2.7em;
+  }
+  .order-unlock-power-section ul {
+    margin-top: 20px;
+  }
+  .order-transform-section h1 {
+    font-size: 27px;
+    line-height: 1.3em;
+  }
+  .order-transform-section {
+    padding-top: 96px;
+    padding-bottom: 67px;
+  }
+  .order-transform-content {
+    width: 100%;
+  }
+  .order-transform-section .transform-section-image {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .order-transform-section hr {
+    width: 90%;
+    margin: 60px auto;
+  }
+  .order-transform-section p {
+    font-size: 14px;
+  }
+  .order-transform-section .transform-product {
+    position: static;
+  }
+  .order-transform-section ul {
+    margin-top: 36px;
+  }
+  .order-transform-section ul li {
+    font-size: 19px;
+  }
+  .important-section {
+    padding-top: 86px;
+    padding-bottom: 70px;
+  }
+  .important-section .container {
+    padding: 0;
+  }
+  .important-section h1 {
+    background: transparent linear-gradient(90deg, rgba(255, 255, 255, 0.0196078431) 0%, #FFFFFF 47%, rgba(255, 255, 255, 0) 100%);
+    font-size: 40px;
+    line-height: 1.5em;
+  }
+  .important-section h3 {
+    font-size: 25px;
+    line-height: 1.5em;
+  }
+  .important-section p {
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .important-section .important-card {
+    margin: 0 auto;
+    width: 86%;
+    margin-bottom: 35px;
+  }
+  .important-section .important-card p {
+    font-size: 14px;
+  }
+  .comparison-section h1 {
+    font-size: 27px;
+    line-height: 1.3em;
+  }
+  .comparison-section {
+    padding-top: 47px;
+    padding-bottom: 108px;
+  }
+  .comparison-section .comparison-product-content {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .comparison-section .comparison-product-content .comparison-product {
+    height: fit-content;
+  }
+  .comparison-section .comparison-product-content .comparison-product-keto-cider {
+    height: fit-content;
+  }
+  .comparison-section .comparison-product-content .comparison-product-keto-cider:last-child {
+    margin-bottom: 80px;
+  }
+  .combo-section button {
+    width: 100%;
+  }
+  .combo-section .form-step .form-content button {
+    width: 100%;
+  }
+  .comparison-section .description p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6em;
+  }
+  .comparison-section .description p + p {
+    margin-top: 20px;
+  }
+  .comparison-section .description img {
+    width: 100%;
+  }
+  .sustainable-section h1 {
+    font-size: 27px;
+    line-height: 1.3em;
+  }
+  .sustainable-section p {
+    font-size: 16px;
+    padding: 0;
+    line-height: 1.6em;
+  }
+  .sustainable-section {
+    padding-top: 66px;
+  }
+  .ordercartin .cartfoot {
+    flex-flow: column;
+  }
+  #orderform-payment_processor .custom-control-label {
+    flex-flow: column;
+    width: auto;
+  }
+  #orderform-payment_processor input:checked + .custom-control-label {
+    width: auto;
+  }
+  .ppbtn button#submitBtn {
+    width: 100%;
+    width: 100%;
+    font-size: 24px;
+    height: 90px;
+  }
+  #orderform-payment_processor input:checked + .custom-control-label {
+    flex-flow: column;
+  }
+  .sustainable-section .sustainable-product {
+    padding: 0;
+  }
+  .sustainable-section .sustainable-product .sustainable-product-card img {
+    margin-top: -148px;
+    padding: 0;
+  }
+  .sustainable-section .sustainable-product .sustainable-product-card h5 {
+    font-size: 20px;
+    line-height: 1.1em;
+  }
+  .combo-section h1 {
+    font-size: 27px;
+    line-height: 1.3em;
+    margin-bottom: 25px;
+  }
+  .combo-section p {
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  .combo-section .badge-logo img {
+    width: 255px;
+    margin: 0 auto;
+  }
+  .combo-section .badge-logo {
+    text-align: center;
+  }
+  .combo-section hr {
+    margin: 97px auto 86px;
+    width: 96%;
+  }
+  .combo-section .select-card {
+    width: 100%;
+    margin-bottom: 81px;
+  }
+  .combo-section .select-card img + img {
+    margin-top: 25px;
+  }
+  .combo-section .form-step {
+    width: 100%;
+  }
+  .combo-section .form-step .form-content {
+    padding: 40px 31px;
+  }
+  .combo-section .form-step .form-content .country-input {
+    display: block;
+  }
+  .combo-section .form-step .form-content .country-input div {
+    width: 100%;
+  }
+  .combo-section .form-step .form-content .country-input div + div {
+    width: 100%;
+    margin: 0;
+  }
+  .combo-section .form-step .form-header h1 {
+    font-size: 22px;
+  }
+  .combo-section .form-step .form-header p {
+    font-size: 16px;
+    margin-left: 13px;
+  }
+  .combo-section .form-step .form-header {
+    padding: 37px 12px;
+  }
+  .combo-section .form-step-2 .form-content input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .combo-section .form-step-2 label img {
+    margin-left: 0;
+  }
+  .combo-section .combo-summary {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  .combo-section .combo-summary h2 {
+    font-size: 25px;
+  }
+  .combo-section .combo-summary .summary-content img {
+    width: 80px;
+  }
+  .combo-section .combo-summary .summary-content .free-delivery {
+    width: 70px;
+    height: 70px;
+  }
+  .combo-section .combo-summary .summary-content h4 {
+    font-size: 19px;
+  }
+  .combo-section .combo-summary .summary-content p {
+    font-size: 12px;
+  }
+  .combo-section .combo-summary .summary-content h6 {
+    font-size: 16px;
+  }
+  .combo-section .combo-summary .right-content {
+    margin-top: 30px;
+  }
+  .combo-section .combo-summary .price-bottom {
+    display: block;
+  }
+  .combo-section .combo-summary .price-bottom > div {
+    margin-top: 20px;
+    align-items: center;
+  }
+  .combo-section .combo-summary .price-bottom div img {
+    height: 39px;
+  }
+  .combo-section .conditions {
+    margin-top: 60px;
+    width: 100%;
+  }
+  .combo-section .conditions p {
+    font-size: 18px;
+  }
+  .combo-section .description p {
+    font-size: 14px;
+  }
+  .combo-section .description-card p {
+    width: 100%;
+  }
+  .combo-section button {
+    font-size: 29px;
+  }
+  .form-controls .col-md-6 {
+    padding: 0;
+  }
+  .combo-section .secure-logo-images {
+    transform: translatex(0);
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li {
+    width: 100%;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li:first-child {
+    border-radius: 58px 58px 0px 0px;
+    margin-top: 0;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li:last-child {
+    border-radius: 0px 0px 58px 58px;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .c-web-form__control-group {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 991px) {
+  .secure-logo-images {
+    position: absolute;
+    bottom: -52px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #orderform-payment_processor input:checked + .custom-control-label {
+    display: flex !important;
+    width: auto;
+  }
+  #orderform-payment_processor .custom-control-label {
+    display: flex !important;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li {
+    width: 17%;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li:first-child {
+    border-radius: 58px 0px 0px 0px;
+    margin-top: 0;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li:last-child {
+    border-radius: 0px 58px 0px 0px;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li {
+    margin-left: 24px;
+    margin-top: 0px;
+  }
+  .hero-section .hero-content h1 {
+    text-align: center;
+  }
+  .hero-section .hero-content p {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .hero-section .hero-container .hero-product-image {
+    margin: 30px auto 0;
+    display: block;
+  }
+  .results-section .results-container img {
+    display: block;
+    margin: 60px auto 0;
+  }
+  .formula-offer-section img {
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+  }
+  .formula-offer-section .secure-logo-images {
+    position: static !important;
+    display: flex;
+    transform: translate(0);
+  }
+  .footer-section .footer-logo {
+    width: 300px;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  .footer-section p {
+    text-align: center;
+  }
+  .order-unlock-power-section img {
+    display: block;
+    max-width: 500px;
+    margin: -190px auto 0;
+  }
+  .order-unlock-power-section h1 {
+    text-align: center !important;
+  }
+  .order-transform-section .transform-product {
+    margin: 0 auto;
+    display: block;
+    max-width: 500px;
+  }
+  .comparison-section .description img {
+    max-width: 500px;
+    display: block;
+    margin: 54px auto 0;
+  }
+  .sustainable-section .sustainable-product .sustainable-product-card img {
+    max-width: 500px;
+    transform: translateX(21%);
+  }
+  .thanksyou-hero-section .thanksyou-hero-product-image {
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+  }
+  .limited-offer-section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .formula-section .premium-cider {
+    max-width: 500px;
+  }
+  .comprehensive-section .comprehensive-product {
+    margin: 0 auto;
+    display: block;
+    max-width: 500px;
+  }
+  .comprehensive-section .comprehensive-vector {
+    position: relative;
+    top: -56px;
+    left: 16%;
+    max-width: 500px;
+  }
+  .formula-section h1 {
+    max-width: 480px;
+  }
+  .formula-section .title-2 {
+    max-width: 440px;
+  }
+  .ordercartin .cartfoot .left {
+    max-width: 240px;
+  }
+  .step3-tac .custom-control-label::before {
+    left: -24px !important;
+  }
+  .bhb-gummies-section .step3-tac .custom-control-label::before {
+    left: 174px !important;
+    top: -2px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1050px) {
+  .hero-section {
+    padding-top: 75px;
+  }
+  .bhb-gummies-section .step3-tac .custom-control-label::before {
+    left: 297px;
+    top: -2px;
+  }
+  .secure-logo-images {
+    position: static;
+  }
+  .uncomplete-banner-sectione {
+    padding: 60px 0;
+  }
+  .login-section .bhb-offer-content .bhb-offer-list li {
+    padding: 26px 50px 26px 47px;
+  }
+  .footer-section p {
+    margin-top: -40px;
+  }
+  .footer-section .footer-menu {
+    display: block;
+  }
+  .footer-section .footer-logo {
+    width: 300px;
+  }
+  .order-unlock-power-section img {
+    position: absolute;
+    top: 40px;
+    left: -54px;
+    height: 520px;
+  }
+  .order-transform-section .transform-section-image {
+    width: 775px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+  }
+  .comparison-section .description img {
+    margin: 0 auto;
+    width: 544px;
+    margin-top: 54px;
+    display: block;
+  }
+  .ordercartin .cartfoot {
+    flex-flow: row;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li:first-child {
+    border-radius: 58px 0px 0px 0px;
+    margin-left: 0;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li {
+    width: 180px;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li {
+    margin-top: 0;
+    margin-left: 24px;
+  }
+  .checkoutltv-page .section-1 ul.quiz-tabs li:last-child {
+    border-radius: 0px 58px 0px 0px;
+  }
+  .hero-section .hero-container .hero-product-image {
+    position: absolute;
+    top: -26px;
+    right: 4px;
+    height: 490px;
+  }
+  section .page-title {
+    font-size: 43px !important;
+  }
+  .hero-section .hero-content p {
+    font-size: 21px;
+  }
+  section .title {
+    font-size: 32px !important;
+  }
+  .results-section .results-container img {
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    max-width: 370px;
+  }
+  .offer-section .offer-card {
+    flex-flow: row;
+    margin-top: 66px;
+  }
+  .offer-section .offer-card img {
+    width: 50% !important;
+  }
+  .comprehensive-section h1 {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .comprehensive-section .comprehensive-product {
+    left: 50px;
+    width: 480px;
+  }
+  .comprehensive-section .comprehensive-vector {
+    position: relative;
+    top: -54px;
+    left: 53px;
+    width: 100%;
+    max-width: 480px;
+  }
+  .comprehensive-section ul li {
+    font-size: 21px;
+    line-height: 2.29em;
+  }
+  .formula-section .premium-cider .premium-description h4 {
+    margin-left: -42px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .planing-section .planing-content {
+    padding: 25px 30px 55px;
+  }
+  .formula-offer-section .offer-button {
+    width: 100%;
+    font-size: 25px;
+  }
+  .order-commit-section h1 {
+    max-width: 510px;
+    margin: 0 auto;
+  }
+  .step3-tac .custom-control-label::before {
+    left: 0;
+  }
+}

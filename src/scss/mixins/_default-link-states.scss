@@ -1,0 +1,6 @@
+@mixin default-link-states{
+  @content;
+  &:link, &:visited, &:hover, &:active, &:focus{
+    @content;
+  }
+}

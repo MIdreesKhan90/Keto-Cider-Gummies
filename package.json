@@ -1,0 +1,31 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync with PHP Yii server",
+  "main": "public/index.html",
+  "author": "Luka Comic",
+  "scripts": {
+    "build:sass": "sass  --no-source-map src/scss:public_html/css",
+    "copy": "npm-run-all --parallel copy:*",
+    "watch:views": "onchange 'views/**'",
+    "watch:sass": "sass  --no-source-map --watch src/scss:public_html/css",
+    "watch": "npm-run-all --parallel watch:*",
+    "serve": "browser-sync start  --proxy \"localhost:8080\" --files \"public_html/css/*.css\" views/** modules/store/views/**",
+    "postbuild": "postcss public_html/css/*.css -u autoprefixer cssnano -r --no-map",
+    "web:server": "php yii serve 0.0.0.0 -t public_html",
+    "web:prepare": "npm-run-all --parallel watch serve",
+    "start": "concurrently  npm:web:*",
+    "tunnel": "lt -p 8080 -o --print-requests"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "autoprefixer": "^10.4.2",
+    "browser-sync": "^2.27.7",
+    "copyfiles": "^2.4.1",
+    "cssnano": "^5.0.17",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.49.8"
+  }
+}

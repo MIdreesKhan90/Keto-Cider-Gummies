@@ -1,0 +1,290 @@
+.uncomplete-banner-sectione {
+    padding: 131px 0;
+    background-image: url(/images/keto-cider/bg-images/result-bg-image.png);
+    background-size: 100% 100%;
+
+    h6 {
+        font-size: 25px;
+        line-height: 1.5em;
+        text-align: center;
+        color: #BF1E2E;
+        font-weight: 700;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+.limited-offer-section {
+    padding: 110px 0;
+
+    h6 {
+        text-align: center;
+        color: #BF1E2E;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1.5em;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 5px;
+
+        span {
+            color: #BF1E2E;
+        }
+    }
+
+    p {
+        text-align: center;
+        font-style: italic;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 1.5em;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .bhb-max-content {
+        margin-left: -57px;
+        padding-right: 20px;
+
+        h2 {
+            font-size: 31px;
+            line-height: 1.5em;
+
+            span {
+                color: #BF1E2E;
+                font-weight: 700;
+            }
+        }
+
+        ul {
+            margin-top: 25px;
+            padding-left: 50px;
+
+            li {
+                list-style: none;
+                font-size: 18px;
+                line-height: 2.75em;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 14px;
+                    left: -29px;
+                    width: 22px;
+                    height: 22px;
+                    border-radius: 50%;
+                    background-image: url(/images/keto-cider/icon/check-svgrepo-com.png);
+                    background-size: 100% 100%;
+                }
+
+                .bhb-offer-section {
+                    padding-bottom: 60px;
+                }
+            }
+        }
+    }
+}
+
+.login-section {
+    .bhb-offer-content {
+        width: 86%;
+        margin: 0 auto;
+
+        h3 {
+            margin-top: 70px;
+            line-height: 1.6em;
+
+            span {
+                color: #BF1E2E;
+            }
+        }
+
+        p {
+            text-align: center;
+            text-decoration: underline;
+            font-size: 18px;
+            line-height: 2em;
+            font-weight: 600;
+        }
+
+        .bhb-offer-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 60px;
+
+            li {
+                list-style: none;
+                box-shadow: 0px 3px 6px #00000029;
+                border: 1px solid #BF1E2E;
+                border-left: 9px solid #BF1E2E;
+                border-radius: 13px;
+                padding: 22px 37px 22px 47px;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 1.4em;
+                position: relative;
+                margin-bottom: 31px;
+                max-width: 455px;
+
+                &::after {
+                    content: "";
+                    background-image: url(/images/keto-cider/icon/list-style-icon.png);
+                    background-size: 100% 100%;
+                    width: 21px;
+                    height: 21px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 35%;
+                    left: 3%;
+                }
+            }
+        }
+    }
+}
+
+.bhb-gummies-section {
+    padding-top: 100px;
+
+    h1 {
+        color: #BF1E2E;
+
+        span {
+            color: #000000;
+        }
+    }
+
+    p {
+        font-size: 21px;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+
+    .bhb-gummies-content {
+        display: flex;
+        align-items: center;
+        width: 71%;
+        margin: 0 auto;
+        margin-top: 30px;
+        border-bottom: 1px solid #434343;
+        padding-bottom: 60px;
+
+        img {
+            width: 266px;
+        }
+
+        ul {
+            padding-left: 60px;
+
+            li {
+                font-size: 18px;
+                line-height: 2.25em;
+                font-weight: 500;
+                list-style: none;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 11px;
+                    left: -26px;
+                    background-image: url(/images/keto-cider/icon/arrow-right.png);
+                    width: 15px;
+                    height: 17px;
+                    background-size: 100% 100%;
+                }
+            }
+        }
+    }
+
+    .bhb-runing-offer-content {
+        p {
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 1.5em;
+        }
+
+        h1 {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .bhb-runing-offer-card {
+            border: 10px solid #BF1E2E;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 50px;
+            padding: 70px 90px;
+            text-align: center;
+
+            h3 {
+                font-size: 31px;
+                font-weight: 600;
+            }
+
+            .complete-order {
+                margin-top: 27px;
+                background: transparent linear-gradient(167deg, #009B43 0%, #005E29 100%);
+                font-size: 40px;
+                color: #FFFFFF;
+                padding: 20px 120px;
+                border-radius: 56px;
+                font-weight: 600;
+            }
+
+            .subscription-terms {
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 1.5em;
+                    margin-top: 40px;
+
+                    a {
+                        color: #BF1E2E;
+                    }
+
+                    img {
+                        width: 23px;
+                        height: 23px;
+                        border-radius: 50%;
+                        background-size: 100% 100%;
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            p {
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 1.7em;
+                padding: 0 50px;
+            }
+        }
+    }
+
+    .accelerate-results {
+        display: block;
+        margin-top: 50px;
+        font-size: 14px;
+        line-height: 1.7em;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+.step3-tac input {
+    position: relative;
+    top: 19px;
+    left: 45px;
+}
+
+.bhb-gummies-section .step3-tac .custom-control-label::before {
+    left: 169px;
+    top: -2px;
+}

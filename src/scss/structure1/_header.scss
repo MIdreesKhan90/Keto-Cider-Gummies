@@ -1,0 +1,289 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+// Header
+header {
+  nav {
+      background: #000;
+      padding: 20px 0 !important;
+      border-bottom: 6px solid;
+      border-image-slice: 1;
+      border-image-source: linear-gradient(to left, #8E8136, #CCC497, #99832A);
+  }
+  .left {
+      max-width: 276px;
+  }
+  .right {
+      flex: 1 1 auto;
+  }
+  .logo {
+      display: inline-block;
+  }
+  .secure {
+      margin-bottom: 10px;
+  }
+  .phone-container {
+      text-align: start;
+      display: flex;
+      align-items: center;
+      .icon {
+          width: 15px;
+          height: 27px;
+          flex: 0 0 15px;
+          margin-right: 8px;
+      }
+      .text {
+          display: flex;
+          flex-direction: column;
+      }
+      .label {
+          font-size: 13px;
+          line-height: 1.3;
+          font-weight: 500;
+          color: #C5AF3B;
+          text-transform: uppercase;
+          display: inline-block;
+          margin-bottom: 2px;
+      }
+      .value {
+          display: block;
+          color: #fff;
+          font-family: 'Roboto'!important;
+          font-size: 16px!important;
+          line-height: 16px!important;
+          font-weight: 700!important;
+          text-decoration: none;
+      }
+  }
+}
+.site-btn {
+  transition: 0.3s all ease;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #E50000;
+  color: #fff;
+  border-radius: 26px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 35px;
+  border: 1px solid #E50000;
+}
+header .buy-container a {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 16px;
+}
+.menuMain {
+  display: none;
+}
+
+
+header .buy-container a {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 16px;
+}
+.site-btn:hover {
+  transition: 0.3s all ease;
+  border-color: #E50000;
+  color: #E50000;
+  background: #000;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  // Header
+  header {
+      .phone-container {
+          flex-direction: row;
+          .icon {
+              width: 30px;
+              height: 52px;
+              flex: 0 0 30px;
+              margin-right: 10px;
+          }
+      }
+  }
+}
+
+@media (max-width: 991px) {
+  header .secure {
+      width: 100%;
+      text-align: right;
+      order: 2;
+      margin: 10px 0;
+  }
+  header .phone-container {
+      order: 0;
+  }
+  header .buy-container {
+      order: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  header .left {
+      max-width: 100%;
+      width: 40%;
+  }
+  header .right {
+      width: 60%;
+  }
+  header .secure img {
+      max-width: 180px;
+  }
+  header .phone-container {
+      margin-right: 15px;
+  }
+  header .phone-container .value {
+      font-size: 14px !important;
+  }
+  header .phone-container .label {
+      font-size: 9px;
+  }
+  header .buy-container a {
+      padding: 4px 8px;
+  }
+  header nav {
+    padding: 15px 15px 0px !important;
+  }
+
+  header .navbar .container {
+    flex-wrap: nowrap;
+  }
+
+  header .navbar .container .secure-seals {
+    width: 140px;
+  }
+
+  header .navbar .container .navbar-brand img {
+    width: 156px;
+  }
+  .menuIcon {
+    display: inline-block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    position: relative;
+  }
+
+  .menuIcon span {
+    display: block;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #fff;
+    margin: auto;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .menuIcon span:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: -11px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #fff;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .menuIcon span:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: -11px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #fff;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .menuIcon.menu-close span {
+    background: transparent;
+  }
+
+  .menuIcon.menu-close span:before {
+    transform: rotate(45deg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .menuIcon.menu-close span:after {
+    transform: rotate(-45deg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .menuMain {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 100%;
+    background: #0c7599;
+    margin: 0;
+    z-index: 999999;
+    transition: none;
+    margin-top: -1px;
+    padding: 0;
+  }
+
+  .menuMain ul {
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .menuMain ul li {
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    padding: 0;
+    text-align: left;
+  }
+
+  .menuMain ul li a {
+    font-size: 16px;
+    display: block;
+    padding: 14px 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  section.about-us {
+    margin-bottom: 40px;
+  }
+
+  section.about-us h2 {
+    font-size: 30px;
+  }
+
+  .menuMain ul li.active a,
+  .menuMain ul li a:hover {
+    background: none;
+  }
+}

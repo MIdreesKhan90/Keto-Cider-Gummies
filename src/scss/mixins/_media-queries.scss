@@ -1,0 +1,45 @@
+@mixin xs-query{
+  @media screen and (max-width: 767px){
+    @content
+  }
+}
+@mixin sm-min-query{
+  @media screen and(min-width: $screen-sm-min){
+    @content;
+  }
+}
+@mixin sm-max-query{
+  @media screen and(max-width: $screen-sm-max){
+    @content;
+  }
+}
+@mixin sm-query{
+  @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max){
+    @content;
+  }
+}
+@mixin sm-md-query{
+  @media screen and (min-width: $screen-sm-min) and (max-width: $screen-md-max){
+    @content;
+  }
+}
+@mixin md-max-query{
+  @media screen and (max-width: $screen-md-max){
+    @content;
+  }
+}
+@mixin md-min-query{
+  @media screen and (min-width: $screen-md-min){
+    @content;
+  }
+}
+@mixin md-query{
+  @media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max){
+    @content;
+  }
+}
+@mixin lg-query{
+  @media screen and (min-width: $screen-md-max){
+    @content;
+  }
+}

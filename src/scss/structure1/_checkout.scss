@@ -1,0 +1,152 @@
+main.checkout-page .purchase-term {
+    margin-top: 10px;
+    font-weight: 500;
+}
+main.checkout-page .purchase-term .text {
+    opacity: 0;
+}
+main.checkout-page .purchase-term .text canvas {
+    vertical-align: text-bottom;
+}
+main.checkout-page .purchase-term input[type=checkbox]:checked + label + .text {
+    opacity: 1;
+}
+main.checkout-page .summary-section {
+    padding: 30px 0;
+}
+main.checkout-page .summary-section h2 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+main.checkout-page .summary-section .cart-product-items {
+    color: #767f84;
+}
+main.checkout-page .summary-section .cart-product-items .table-head {
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+main.checkout-page .summary-section .cart-product-items .table-body {
+    font-size: 15px;
+    font-weight: 600;
+}
+main.checkout-page .summary-section .cart-product-items .table-body .cart-item {
+    position: relative;
+    border-bottom: 2px solid #dee2e6;
+    padding: 20px 0;
+}
+main.checkout-page .summary-section .cart-product-items .table-body .cart-item .button-remove-item {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 2px 5px #000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    color: #474747;
+    border-radius: 50%;
+    font-weight: 500;
+    padding-top: 4px;
+}
+main.checkout-page .summary-section .cart-product-items .table-body .cart-item .button-remove-item:hover {
+    background: #48ce59;
+    color: #fff;
+}
+main.checkout-page .summary-section .cart-product-items .table-body .cart-item .bottle {
+    padding: 0;
+    border: 1px solid #ccc;
+    background: #f3f3f3;
+    max-width: 150px;
+    margin-right: 20px;
+    flex: 0 0 150px;
+}
+main.checkout-page .summary-section .cart-product-items .table-body .cart-item h4 {
+    font-size: 18px;
+    font-family: "Poppins";
+    color: #282d3b;
+    font-weight: 600;
+}
+main.checkout-page .summary-section .cart-summary {
+    border: 1px solid #ddd;
+    background: #fbfbfb;
+    padding: 20px;
+    color: #767f84;
+    font-size: 15px;
+    font-weight: 400;
+}
+main.checkout-page .summary-section .cart-summary h3 {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #282d3b;
+}
+main.checkout-page .summary-section .cart-summary .summary-items {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+main.checkout-page .summary-section .cart-summary .summary-items .row {
+    --bs-gutter-y: 10px;
+}
+main.checkout-page .summary-section .cart-summary .order-total {
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+main.checkout-page .summary-section .cart-summary .discount-form {
+    margin-bottom: 50px;
+}
+main.checkout-page .summary-section .cart-summary .discount-form input {
+    border: 1px solid #e6e6e6;
+    border-radius: 0;
+    font-size: 15px;
+    box-shadow: none;
+    outline: none;
+}
+main.checkout-page .summary-section .cart-summary .discount-form .button-discount {
+    display: block;
+    background: #48ce59;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 0;
+}
+main.checkout-page .summary-section .cart-summary .discount-form .button-discount:hover {
+    background: #006267;
+}
+main.checkout-page .summary-section .cart-summary .button-checkout {
+    display: block;
+    background: #48ce59;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 12px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+main.checkout-page .summary-section .cart-summary .button-checkout:hover {
+    background: #000000;
+}
+
+@media (min-width: 768px){
+main.checkout-page .purchase-term {
+    margin-top: -50px;
+    padding-left: 40px;
+}
+}
+@media (max-width: 767px){
+main.checkout-page .summary-section h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+}

@@ -1,0 +1,55 @@
+.order-form-page{
+  .creditCardType-box {
+    > div{
+      display: none;
+      margin-bottom: 15px;
+      flex-direction: row;
+      align-items: center;
+      &.active{
+        display: flex;
+      }
+      .icon{
+        width: 70px;
+        padding-right: 15px;
+        flex-grow: 0;
+        flex-shrink: 0;
+
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+
+  }
+
+
+
+}
+
+[name='product_id'], [name='p'] {
+  display: none;
+  + label {
+    cursor: pointer;
+
+    .normal {
+      display: block;
+    }
+
+    .selected {
+      display: none;
+    }
+  }
+
+  &:checked {
+    + label {
+      .normal {
+        display: none;
+      }
+      .selected {
+        display: block;
+      }
+    }
+  }
+
+
+}

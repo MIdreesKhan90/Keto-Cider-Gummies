@@ -1,0 +1,777 @@
+section .page-title {
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+
+section .title {
+  font-size: 35px;
+  line-height: 1.3em;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+.hero-section {
+  background-image: url(/images/keto-cider/bg-images/hero-bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 75px;
+  padding-bottom: 20px;
+
+  .hero-container {
+    position: relative;
+
+    .hero-product-image {
+      position: absolute;
+      top: 6px;
+      right: 0;
+      height: 500px;
+    }
+  }
+
+  .hero-content {
+
+    p {
+      color: #BF1E2E;
+      font-size: 21px;
+      font-weight: 500;
+      margin-top: 20px;
+      line-height: 1.4em;
+      max-width: 580px;
+    }
+
+    .hero-description {
+      margin-top: 40px;
+
+      p {
+        max-width: 650px;
+        color: #000000;
+      }
+    }
+
+    ul {
+      margin-top: 20px;
+      margin-bottom: 0;
+
+      li {
+        list-style: none;
+        list-style-image: url(/images/keto-cider/icon/list-style-icon.png);
+        font-size: 17px;
+        line-height: 2.25em;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.planing-section {
+  padding-top: 75px;
+
+  .planing-content {
+    background-color: #BF1E2E;
+    padding: 65px 55px;
+
+    h1 {
+      color: #FFFFFF;
+
+      span {
+        color: #DDC34F;
+      }
+    }
+
+    p {
+      text-align: center;
+      font-size: 16px;
+      color: #FFFFFF;
+      font-weight: 300;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.5em;
+      margin-top: 26px;
+    }
+  }
+}
+
+.planing-card {
+  border-radius: 10px;
+  margin-top: 36px;
+  height: 490px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 10px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+  }
+
+  .floater {
+    text-align: left;
+    font-size: 85px;
+    line-height: 1.5em;
+    width: fit-content;
+    background: #ffffff99;
+    color: #BF1E2E;
+    border-radius: 10px 0px 0px 0px;
+    padding: 0 27px;
+    z-index: 1;
+    font-family: 'Anton', sans-serif;
+  }
+
+  .card-description {
+    background-color: #26262671;
+    border-radius: 0px 0px 10px 10px;
+    padding: 6px 20px;
+    z-index: 1;
+
+    h4 {
+      font-size: 24px;
+      line-height: 1.5em;
+      color: #FFFFFF;
+    }
+
+    p {
+      text-align: left;
+      padding: 0;
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.5em;
+    }
+  }
+}
+
+.progress-section {
+  padding: 75px 0;
+
+  .progress-content {
+    max-width: 900px;
+    margin: 0 auto;
+
+    h1 {
+      span {
+        color: #BF1E2E;
+      }
+    }
+
+    p {
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.5em;
+      margin-top: 27px;
+    }
+
+    img {
+      margin-top: 60px;
+    }
+  }
+}
+
+.results-section {
+  background-image: url(/images/keto-cider/bg-images/result-bg-image.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 75px 0;
+}
+
+.results-section h1 span {
+  color: #BF1E2E;
+}
+
+.results-section .results-description {
+  margin-top: 100px;
+}
+
+.results-section .results-description p {
+  background: transparent linear-gradient(277deg, #BF1E2E 0%, #570000 100%);
+  padding: 5px 50px;
+  margin-bottom: 11px;
+  font-size: 16px;
+  line-height: 3em;
+  color: #FFFFFF;
+}
+
+.results-section .results-description p span {
+  color: #DDC34F;
+  font-weight: 700;
+}
+
+.results-section .results-container {
+  position: relative;
+}
+
+.results-section .results-container img {
+  position: absolute;
+  top: 16%;
+  left: 0;
+}
+
+.results-section .results-container>p {
+  margin-top: 113px;
+  font-size: 21px;
+  line-height: 1.6em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.results-section .results-container>p span {
+  font-weight: 700;
+}
+
+.compare-section {
+  padding-top: 95px;
+  padding-bottom: 290px;
+}
+
+.compare-section h1 {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.compare-section h1 span {
+  color: #BF1E2E;
+}
+
+.compare-section p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.compare-section img {
+  margin-top: 30px;
+}
+
+.compare-section .outshines-description h1 {
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.compare-section .outshines-description ul {
+  margin: 40px auto 0;
+  width: fit-content;
+}
+
+.compare-section .outshines-description ul li {
+  font-size: 17px;
+  line-height: 2.25em;
+  list-style: none;
+  position: relative;
+}
+
+.compare-section .outshines-description ul li::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -24px;
+  background-image: url(/images/keto-cider/icon/arrow-right.png);
+  background-size: 100% 100%;
+  width: 15px;
+  height: 17px;
+}
+
+.compare-section .outshines-description ul li b {
+  text-transform: uppercase;
+}
+
+.keto-help-section {
+  background: #F6F6F6;
+  padding-bottom: 75px;
+}
+
+.keto-help-section h1 {
+  margin: 0 auto 70px;
+}
+
+.keto-help-section h1 span {
+  color: #BF1E2E;
+}
+
+.keto-help-section .keto-help-container {
+  text-align: center;
+}
+
+.keto-help-section .keto-help-container .product-images {
+  margin-top: -245px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+
+.keto-help-section .blog-card {
+  box-shadow: 0px 3px 10px #00000029;
+  border-bottom: 10px solid #BF1E2E;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+.keto-help-section .blog-card img {
+  width: 100%;
+}
+
+.keto-help-section .blog-card .blog-description {
+  padding: 30px 35px;
+}
+
+.keto-help-section .blog-card .blog-description h6 {
+  font-size: 22px;
+  line-height: 1.25em;
+  font-weight: 700;
+  color: #BF1E2E;
+  margin-bottom: 13px;
+  text-align: left;
+}
+
+.keto-help-section .blog-card .blog-description p {
+  font-size: 14px;
+  line-height: 1.75em;
+  text-align: left;
+}
+
+.offer-section {
+  padding: 75px 0;
+}
+
+.offer-section .special-offer {
+  margin: 0 auto;
+  display: block;
+  max-width: 671px !important;
+}
+
+.offer-section h1 {
+  margin-top: 100px;
+}
+
+.offer-section h1 span {
+  color: #BF1E2E;
+}
+
+.offer-section .offer-card {
+  display: flex;
+  align-items: center;
+  margin-top: 66px;
+  box-shadow: 0px 3px 10px #00000029;
+  background-color: #F8F8F8;
+}
+
+.offer-section .offer-card+.offer-card {
+  margin-top: 45px;
+}
+
+.offer-section .offer-card .offer-card-content {
+  padding: 0 25px;
+}
+
+.offer-section .offer-card .offer-card-content h6 {
+  font-size: 22px;
+  line-height: 1.6em;
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.offer-section .offer-card .offer-card-content p {
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-top: 25px;
+}
+
+.offer-section .offer-card img {
+  width: 50% !important;
+  height: 290px;
+}
+
+.offer-section .offer-description p {
+  font-size: 17px;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 0px 105px;
+  margin-top: 53px;
+}
+
+.offer-section .offer-description p span {
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.comprehensive-section {
+  padding-top: 75px;
+  background-color: #F2F2F2;
+}
+
+.comprehensive-section h1 {
+  margin-bottom: 50px;
+}
+
+.comprehensive-section h1 span {
+  color: #BF1E2E;
+}
+
+.comprehensive-section .comprehensive-product {
+  position: relative;
+  left: 40px;
+  z-index: 1;
+}
+
+.comprehensive-section .comprehensive-vector {
+  position: relative;
+  top: -80px;
+  left: 30px;
+}
+
+.comprehensive-section ul {
+  padding: 0;
+  margin-top: 105px;
+}
+
+.comprehensive-section ul li {
+  list-style: none;
+  list-style-image: url(/images/keto-cider/icon/list-style-icon.png);
+  font-size: 21px;
+  line-height: 2.29em;
+  font-weight: 500;
+}
+
+.reveiw-section {
+  padding-top: 75px;
+  padding-bottom: 90px;
+}
+
+.reveiw-section h1 {
+  line-height: 1.5em;
+  margin-bottom: 57px;
+}
+
+.reveiw-section h1 span {
+  color: #BF1E2E;
+}
+
+.reveiw-section .reveiw-card {
+  box-shadow: 0px 3px 10px #00000029;
+  border-radius: 10px;
+  border-bottom: 10px solid #BF1E2E;
+  background-color: #FFFFFF;
+  max-width: 565px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content {
+  padding: 0 35px 15px 35px;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content .quote-image {
+  width: 48px;
+  height: 34px;
+  margin-top: -16px;
+  display: block;
+  margin-left: auto;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content h5 {
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.25em;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content .toppng-five-image {
+  width: 79px;
+  height: 16px;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content p {
+  font-size: 14px;
+  line-height: 1.75em;
+  margin-top: 5px;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content .avatar {
+  width: fit-content;
+  margin-left: auto;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content .avatar p {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.reveiw-section .reveiw-card .reveiw-card-content .avatar p img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-top: -2px;
+}
+
+.supplement-section {
+  background-color: #BF1E2E;
+  padding: 75px 0;
+}
+
+.supplement-section h1 {
+  line-height: 1.5em;
+  color: #FFFFFF;
+  margin-bottom: 57px;
+}
+
+.supplement-section h1 span {
+  color: #DDC34F;
+}
+
+.supplement-section .supplement-card {
+  background-color: #FFFFFF;
+  padding: 0 24px 26px;
+  height: 100%;
+  max-width: 565px;
+  margin: 0 auto;
+}
+
+.supplement-section .supplement-card .quote-image {
+  width: 52px;
+  height: 38px;
+  display: block;
+  margin-left: auto;
+  position: relative;
+  top: -17px;
+}
+
+.supplement-section .supplement-card .supplement-card-image {
+  max-height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.supplement-section .supplement-card h5 {
+  font-size: 21px;
+  line-height: 1.25em;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.supplement-section .supplement-card .ratting-image {
+  height: 16px;
+  width: 79px;
+}
+
+.supplement-section .supplement-card p {
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-top: 15px;
+}
+
+.formula-section {
+  padding: 75px 0;
+}
+
+.formula-section h1 {
+  margin: 0 auto 70px;
+  max-width: 900px;
+}
+
+.formula-section h1 span {
+  color: #BF1E2E;
+}
+
+.formula-section .formula-description {
+  padding: 25px 0;
+  max-width: 580px;
+  border-bottom: 1px solid #434343;
+}
+
+.formula-section .formula-description:last-of-type {
+  border: 0;
+}
+
+.formula-section .formula-description h4 {
+  font-size: 19px;
+  line-height: 1.8em;
+  color: #BF1E2E;
+  font-weight: 700;
+  position: relative;
+  margin-left: 35px;
+}
+
+.formula-section .formula-description h4::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: -35px;
+  background-image: url(/images/keto-cider/icon/check-svgrepo-com.png);
+  width: 27px;
+  height: 27px;
+}
+
+.formula-section .formula-description p {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.6em;
+  font-weight: 500;
+}
+
+.formula-section hr {
+  width: 70%;
+  margin: 75px auto;
+}
+
+.formula-section h1:last-of-type {
+  margin-bottom: 50px;
+}
+
+.formula-section .premium-cider {
+  background: #FCFCFC;
+  box-shadow: 0px 3px 10px #00000029;
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.formula-section .premium-cider .premium-description {
+  padding: 45px 36px 45px 0;
+}
+
+.formula-section .premium-cider .premium-description h3 {
+  font-size: 25px;
+  line-height: 1.5em;
+  color: #BF1E2E;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.formula-section .premium-cider .premium-description p {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.formula-section .premium-cider .premium-description h4 {
+  background-image: url(/images/keto-cider/bg-images/support-bg-image.png);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  font-size: 17px;
+  line-height: 1.5em;
+  padding: 10px 0 10px 25px;
+  margin-top: 40px;
+  margin-left: -24px;
+}
+
+.formula-section .premium-cider .premium-description ul {
+  margin-top: 30px;
+  margin-left: 35px;
+}
+
+.formula-section .premium-cider .premium-description ul li {
+  list-style: none;
+  position: relative;
+  font-size: 18px;
+  line-height: 2.5em;
+}
+
+.formula-section .premium-cider .premium-description ul li::after {
+  content: "";
+  position: absolute;
+  top: 19px;
+  left: -15px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #BF1E2E;
+}
+
+.formula-offer-section {
+  padding: 75px 0;
+  background-image: url(/images/keto-cider/bg-images/formula-bg-image.png);
+  background-size: 100% 100%;
+}
+
+.formula-offer-section h1 {
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.formula-offer-section h1 span {
+  color: #BF1E2E;
+}
+
+.formula-offer-section h3 {
+  font-size: 23px;
+  font-weight: 600;
+  color: #BF1E2E;
+  line-height: 1.5em;
+}
+
+.formula-offer-section ul {
+  margin-top: 26px;
+  margin-left: 25px;
+}
+
+.formula-offer-section ul li {
+  font-size: 18px;
+  line-height: 2.25em;
+  font-weight: 500;
+  list-style: none;
+  position: relative;
+}
+
+.formula-offer-section ul li::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -26px;
+  background-image: url(/images/keto-cider/icon/arrow-right.png);
+  width: 15px;
+  height: 17px;
+  background-size: 100% 100%;
+}
+
+.formula-offer-section h5 {
+  font-size: 21px;
+  line-height: 1.6em;
+  margin-top: 15px;
+}
+
+.formula-offer-section h5 span {
+  color: #BF1E2E;
+  font-weight: 700;
+}
+
+.formula-offer-section .offer-button {
+  background: #009B43;
+  width: 520px;
+  height: 80px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
+  font-size: 35px;
+  color: #FFFFFF;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.formula-offer-section p {
+  background-color: #FFFFFF;
+  border: 1px solid #BFBFBF;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 85px;
+  padding: 15px 35px;
+  max-width: 824px;
+  font-size: 14px;
+  line-height: 1.7em;
+}
+
+.formula-offer-section .secure-logo-images {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.button:hover {
+  opacity: 0.8;
+}
